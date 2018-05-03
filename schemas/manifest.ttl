@@ -3705,11 +3705,11 @@
 # regexp template:
 # <#\(.*?\)> a sht:RepresentationTest ;
 #     mf:name "\1" ;
-#     mf:status mf:proposed ;\(?:
-#     mf:sameSemanticsAs <#.*?> ;\)?\(?:
+#     mf:status mf:proposed ;\(
+#     mf:sameSemanticsAs <#.*?> ;\)?\(
 #     sht:trait .*? ;\)?
 #     sx:shex <\(.*?\).shex> ;
-#     sx:json <\2.json> ;
-#     sx:ttl <\2\.ttl> ;
+#     sx:json <\4.json> ;
+#     sx:ttl <\4\.ttl> ;
 #     \.
 
