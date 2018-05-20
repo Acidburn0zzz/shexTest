@@ -423,6 +423,7 @@
     sx:shex <0.shex> ;
     sx:json <0.json> ;
     sx:ttl <0.ttl> ;
+    sx:cnfTE <0.json> ;
     .
 
 <#1dot> a sht:RepresentationTest ;
@@ -431,6 +432,7 @@
     sx:shex <1dot.shex> ;
     sx:json <1dot.json> ;
     sx:ttl <1dot.ttl> ;
+    sx:cnfTE <1dot.json> ;
     .
 
 <#1dot-base> a sht:RepresentationTest ;
@@ -439,6 +441,7 @@
     sx:shex <1dot-base.shex> ;
     sx:json <1dot-base.json> ;
     sx:ttl <1dot-base.ttl> ;
+    sx:cnfTE <1dot-base.json> ;
     .
 
 <#1dotSemi> a sht:RepresentationTest ;
@@ -447,6 +450,7 @@
     sx:shex <1dotSemi.shex> ;
     sx:json <1dotSemi.json> ;
     sx:ttl <1dotSemi.ttl> ;
+    sx:cnfTE <1dotSemi.json> ;
     .
 
 <#1dotLNex> a sht:RepresentationTest ;
@@ -455,6 +459,7 @@
     sx:shex <1dotLNex.shex> ;
     sx:json <1dotLNex.json> ;
     sx:ttl <1dotLNex.ttl> ;
+    sx:cnfTE <1dotLNex.json> ;
     .
 
 <#1dotNS2> a sht:RepresentationTest ;
@@ -463,6 +468,7 @@
     sx:shex <1dotNS2.shex> ;
     sx:json <1dotNS2.json> ;
     sx:ttl <1dotNS2.ttl> ;
+    sx:cnfTE <1dotNS2.json> ;
     .
 
 <#1dotNS2Comment> a sht:RepresentationTest ;
@@ -471,6 +477,7 @@
     sx:shex <1dotNS2Comment.shex> ;
     sx:json <1dotNS2Comment.json> ;
     sx:ttl <1dotNS2Comment.ttl> ;
+    sx:cnfTE <1dotNS2Comment.json> ;
     .
 
 <#1dotLNexComment> a sht:RepresentationTest ;
@@ -479,6 +486,7 @@
     sx:shex <1dotLNexComment.shex> ;
     sx:json <1dotLNexComment.json> ;
     sx:ttl <1dotLNexComment.ttl> ;
+    sx:cnfTE <1dotLNexComment.json> ;
     .
 
 <#1dotLNdefault> a sht:RepresentationTest ;
@@ -487,6 +495,7 @@
     sx:shex <1dotLNdefault.shex> ;
     sx:json <1dotLNdefault.json> ;
     sx:ttl <1dotLNdefault.ttl> ;
+    sx:cnfTE <1dotLNdefault.json> ;
     .
 
 <#1dotNSdefault> a sht:RepresentationTest ;
@@ -495,6 +504,7 @@
     sx:shex <1dotNSdefault.shex> ;
     sx:json <1dotNSdefault.json> ;
     sx:ttl <1dotNSdefault.ttl> ;
+    sx:cnfTE <1dotNSdefault.json> ;
     .
 
 <#1dotLNex-HYPHEN_MINUS> a sht:RepresentationTest ;
@@ -503,6 +513,7 @@
     sx:shex <1dotLNex-HYPHEN_MINUS.shex> ;
     sx:json <1dotLNex-HYPHEN_MINUS.json> ;
     sx:ttl <1dotLNex-HYPHEN_MINUS.ttl> ;
+    sx:cnfTE <1dotLNex-HYPHEN_MINUS.json> ;
     .
 
 <#bnode1dot> a sht:RepresentationTest ;
@@ -511,6 +522,7 @@
     sx:shex <bnode1dot.shex> ;
     sx:json <bnode1dot.json> ;
     sx:ttl <bnode1dot.ttl> ;
+    sx:cnfTE <bnode1dot.json> ;
     .
 
 <#1inversedot> a sht:RepresentationTest ;
@@ -519,6 +531,7 @@
     sx:shex <1inversedot.shex> ;
     sx:json <1inversedot.json> ;
     sx:ttl <1inversedot.ttl> ;
+    sx:cnfTE <1inversedot.json> ;
     .
 
 <#1Adot> a sht:RepresentationTest ;
@@ -527,6 +540,7 @@
     sx:shex <1Adot.shex> ;
     sx:json <1Adot.json> ;
     sx:ttl <1Adot.ttl> ;
+    sx:cnfTE <1Adot.json> ;
     .
 
 <#1iri> a sht:RepresentationTest ;
@@ -535,6 +549,7 @@
     sx:shex <1iri.shex> ;
     sx:json <1iri.json> ;
     sx:ttl <1iri.ttl> ;
+    sx:cnfTE <1iri.json> ;
     .
 
 <#1bnode> a sht:RepresentationTest ;
@@ -543,6 +558,7 @@
     sx:shex <1bnode.shex> ;
     sx:json <1bnode.json> ;
     sx:ttl <1bnode.ttl> ;
+    sx:cnfTE <1bnode.json> ;
     .
 
 <#1literal> a sht:RepresentationTest ;
@@ -551,6 +567,7 @@
     sx:shex <1literal.shex> ;
     sx:json <1literal.json> ;
     sx:ttl <1literal.ttl> ;
+    sx:cnfTE <1literal.json> ;
     .
 
 <#1nonliteral> a sht:RepresentationTest ;
@@ -559,6 +576,7 @@
     sx:shex <1nonliteral.shex> ;
     sx:json <1nonliteral.json> ;
     sx:ttl <1nonliteral.ttl> ;
+    sx:cnfTE <1nonliteral.json> ;
     .
 
 <#1focusnonLiteralLength-nonLiteralLength> a sht:RepresentationTest ;
@@ -567,6 +585,7 @@
     sx:shex <1focusnonLiteralLength-nonLiteralLength.shex> ;
     sx:json <1focusnonLiteralLength-nonLiteralLength.json> ;
     sx:ttl <1focusnonLiteralLength-nonLiteralLength.ttl> ;
+    sx:cnfTE <1focusnonLiteralLength-nonLiteralLength.json> ;
     .
 
 <#1datatype> a sht:RepresentationTest ;
@@ -575,6 +594,7 @@
     sx:shex <1datatype.shex> ;
     sx:json <1datatype.json> ;
     sx:ttl <1datatype.ttl> ;
+    sx:cnfTE <1datatype.json> ;
     .
 
 <#1datatypelangString> a sht:RepresentationTest ;
@@ -583,6 +603,7 @@
     sx:shex <1datatypelangString.shex> ;
     sx:json <1datatypelangString.json> ;
     sx:ttl <1datatypelangString.ttl> ;
+    sx:cnfTE <1datatypelangString.json> ;
     .
 
 <#1card2> a sht:RepresentationTest ;
@@ -591,6 +612,7 @@
     sx:shex <1card2.shex> ;
     sx:json <1card2.json> ;
     sx:ttl <1card2.ttl> ;
+    sx:cnfTE <1card2.json> ;
     .
 
 <#1card2blank> a sht:RepresentationTest ;
@@ -599,6 +621,7 @@
     sx:shex <1card2blank.shex> ;
     sx:json <1card2blank.json> ;
     sx:ttl <1card2blank.ttl> ;
+    sx:cnfTE <1card2blank.json> ;
     .
 
 <#1card25> a sht:RepresentationTest ;
@@ -607,6 +630,7 @@
     sx:shex <1card25.shex> ;
     sx:json <1card25.json> ;
     sx:ttl <1card25.ttl> ;
+    sx:cnfTE <1card25.json> ;
     .
 
 <#1card2Star> a sht:RepresentationTest ;
@@ -615,6 +639,7 @@
     sx:shex <1card2Star.shex> ;
     sx:json <1card2Star.json> ;
     sx:ttl <1card2Star.ttl> ;
+    sx:cnfTE <1card2Star.json> ;
     .
 
 <#1cardOpt> a sht:RepresentationTest ;
@@ -623,6 +648,7 @@
     sx:shex <1cardOpt.shex> ;
     sx:json <1cardOpt.json> ;
     sx:ttl <1cardOpt.ttl> ;
+    sx:cnfTE <1cardOpt.json> ;
     .
 
 <#1cardPlus> a sht:RepresentationTest ;
@@ -631,6 +657,7 @@
     sx:shex <1cardPlus.shex> ;
     sx:json <1cardPlus.json> ;
     sx:ttl <1cardPlus.ttl> ;
+    sx:cnfTE <1cardPlus.json> ;
     .
 
 <#1cardStar> a sht:RepresentationTest ;
@@ -639,6 +666,7 @@
     sx:shex <1cardStar.shex> ;
     sx:json <1cardStar.json> ;
     sx:ttl <1cardStar.ttl> ;
+    sx:cnfTE <1cardStar.json> ;
     .
 
 <#1literalPlus> a sht:RepresentationTest ;
@@ -647,6 +675,7 @@
     sx:shex <1literalPlus.shex> ;
     sx:json <1literalPlus.json> ;
     sx:ttl <1literalPlus.ttl> ;
+    sx:cnfTE <1literalPlus.json> ;
     .
 
 <#1dotRef1> a sht:RepresentationTest ;
@@ -655,6 +684,7 @@
     sx:shex <1dotRef1.shex> ;
     sx:json <1dotRef1.json> ;
     sx:ttl <1dotRef1.ttl> ;
+    sx:cnfTE <1dotRef1.json> ;
     .
 
 <#1dotRefLNex1> a sht:RepresentationTest ;
@@ -663,6 +693,7 @@
     sx:shex <1dotRefLNex1.shex> ;
     sx:json <1dotRefLNex1.json> ;
     sx:ttl <1dotRefLNex1.ttl> ;
+    sx:cnfTE <1dotRefLNex1.json> ;
     .
 
 <#1dotRefSpaceLNex1> a sht:RepresentationTest ;
@@ -672,6 +703,7 @@
     sx:shex <1dotRefSpaceLNex1.shex> ;
     sx:json <1dotRefSpaceLNex1.json> ;
     sx:ttl <1dotRefSpaceLNex1.ttl> ;
+    sx:cnfTE <1dotRefSpaceLNex1.json> ;
     .
 
 <#1dotRefNS1> a sht:RepresentationTest ;
@@ -680,6 +712,7 @@
     sx:shex <1dotRefNS1.shex> ;
     sx:json <1dotRefNS1.json> ;
     sx:ttl <1dotRefNS1.ttl> ;
+    sx:cnfTE <1dotRefNS1.json> ;
     .
 
 <#1dotRefSpaceNS1> a sht:RepresentationTest ;
@@ -689,6 +722,7 @@
     sx:shex <1dotRefSpaceNS1.shex> ;
     sx:json <1dotRefSpaceNS1.json> ;
     sx:ttl <1dotRefSpaceNS1.ttl> ;
+    sx:cnfTE <1dotRefSpaceNS1.json> ;
     .
 
 <#1refbnode1> a sht:RepresentationTest ;
@@ -697,6 +731,7 @@
     sx:shex <1refbnode1.shex> ;
     sx:json <1refbnode1.json> ;
     sx:ttl <1refbnode1.ttl> ;
+    sx:cnfTE <1refbnode1.json> ;
     .
 
 <#1refbnode_with_leading_digit1> a sht:RepresentationTest ;
@@ -705,6 +740,7 @@
     sx:shex <1refbnode_with_leading_digit1.shex> ;
     sx:json <1refbnode_with_leading_digit1.json> ;
     sx:ttl <1refbnode_with_leading_digit1.ttl> ;
+    sx:cnfTE <1refbnode_with_leading_digit1.json> ;
     .
 
 <#1refbnode_with_leading_underscore1> a sht:RepresentationTest ;
@@ -713,6 +749,7 @@
     sx:shex <1refbnode_with_leading_underscore1.shex> ;
     sx:json <1refbnode_with_leading_underscore1.json> ;
     sx:ttl <1refbnode_with_leading_underscore1.ttl> ;
+    sx:cnfTE <1refbnode_with_leading_underscore1.json> ;
     .
 
 <#1refbnode_with_spanning_PN_CHARS1> a sht:RepresentationTest ;
@@ -721,6 +758,7 @@
     sx:shex <1refbnode_with_spanning_PN_CHARS1.shex> ;
     sx:json <1refbnode_with_spanning_PN_CHARS1.json> ;
     sx:ttl <1refbnode_with_spanning_PN_CHARS1.ttl> ;
+    sx:cnfTE <1refbnode_with_spanning_PN_CHARS1.json> ;
     .
 
 <#1refbnode_with_spanning_PN_CHARS_BASE1> a sht:RepresentationTest ;
@@ -729,6 +767,7 @@
     sx:shex <1refbnode_with_spanning_PN_CHARS_BASE1.shex> ;
     sx:json <1refbnode_with_spanning_PN_CHARS_BASE1.json> ;
     sx:ttl <1refbnode_with_spanning_PN_CHARS_BASE1.ttl> ;
+    sx:cnfTE <1refbnode_with_spanning_PN_CHARS_BASE1.json> ;
     .
 
 <#3circRefPlus1> a sht:RepresentationTest ;
@@ -737,6 +776,7 @@
     sx:shex <3circRefPlus1.shex> ;
     sx:json <3circRefPlus1.json> ;
     sx:ttl <3circRefPlus1.ttl> ;
+    sx:cnfTE <3circRefPlus1.json> ;
     .
 
 <#1iriRef1> a sht:RepresentationTest ;
@@ -745,6 +785,7 @@
     sx:shex <1iriRef1.shex> ;
     sx:json <1iriRef1.json> ;
     sx:ttl <1iriRef1.ttl> ;
+    sx:cnfTE <1iriRef1.json> ;
     .
 
 <#1bnodeRef1> a sht:RepresentationTest ;
@@ -753,6 +794,7 @@
     sx:shex <1bnodeRef1.shex> ;
     sx:json <1bnodeRef1.json> ;
     sx:ttl <1bnodeRef1.ttl> ;
+    sx:cnfTE <1bnodeRef1.json> ;
     .
 
 <#1datatypeRef1> a sht:RepresentationTest ;
@@ -761,6 +803,7 @@
     sx:shex <1datatypeRef1.shex> ;
     sx:json <1datatypeRef1.json> ;
     sx:ttl <1datatypeRef1.ttl> ;
+    sx:cnfTE <1datatypeRef1.json> ;
     .
 
 <#1dotInline1> a sht:RepresentationTest ;
@@ -769,6 +812,7 @@
     sx:shex <1dotInline1.shex> ;
     sx:json <1dotInline1.json> ;
     sx:ttl <1dotInline1.ttl> ;
+    sx:cnfTE <1dotInline1.json> ;
     .
 
 <#1val1IRIREF> a sht:RepresentationTest ;
@@ -777,6 +821,7 @@
     sx:shex <1val1IRIREF.shex> ;
     sx:json <1val1IRIREF.json> ;
     sx:ttl <1val1IRIREF.ttl> ;
+    sx:cnfTE <1val1IRIREF.json> ;
     .
 
 <#1IRI_with_all_punctuationdot> a sht:RepresentationTest ;
@@ -785,6 +830,7 @@
     sx:shex <1IRI_with_all_punctuationdot.shex> ;
     sx:json <1IRI_with_all_punctuationdot.json> ;
     sx:ttl <1IRI_with_all_punctuationdot.ttl> ;
+    sx:cnfTE <1IRI_with_all_punctuationdot.json> ;
     .
 
 <#1IRI_with_UCHAR.1dot> a sht:RepresentationTest ;
@@ -793,6 +839,7 @@
     sx:shex <1IRI_with_UCHAR.1dot.shex> ;
     sx:json <1IRI_with_UCHAR.1dot.json> ;
     sx:ttl <1IRI_with_UCHAR.1dot.ttl> ;
+    sx:cnfTE <1IRI_with_UCHAR.1dot.json> ;
     .
 
 <#1val1INTEGER> a sht:RepresentationTest ;
@@ -801,6 +848,7 @@
     sx:shex <1val1INTEGER.shex> ;
     sx:json <1val1INTEGER.json> ;
     sx:ttl <1val1INTEGER.ttl> ;
+    sx:cnfTE <1val1INTEGER.json> ;
     .
 
 <#1val1DECIMAL> a sht:RepresentationTest ;
@@ -809,6 +857,7 @@
     sx:shex <1val1DECIMAL.shex> ;
     sx:json <1val1DECIMAL.json> ;
     sx:ttl <1val1DECIMAL.ttl> ;
+    sx:cnfTE <1val1DECIMAL.json> ;
     .
 
 <#1val1DOUBLE> a sht:RepresentationTest ;
@@ -817,6 +866,7 @@
     sx:shex <1val1DOUBLE.shex> ;
     sx:json <1val1DOUBLE.json> ;
     sx:ttl <1val1DOUBLE.ttl> ;
+    sx:cnfTE <1val1DOUBLE.json> ;
     .
 
 <#1val1DOUBLElowercase> a sht:RepresentationTest ;
@@ -825,6 +875,7 @@
     sx:shex <1val1DOUBLElowercase.shex> ;
     sx:json <1val1DOUBLElowercase.json> ;
     sx:ttl <1val1DOUBLElowercase.ttl> ;
+    sx:cnfTE <1val1DOUBLElowercase.json> ;
     .
 
 <#1val1LANGTAG> a sht:RepresentationTest ;
@@ -833,6 +884,7 @@
     sx:shex <1val1LANGTAG.shex> ;
     sx:json <1val1LANGTAG.json> ;
     sx:ttl <1val1LANGTAG.ttl> ;
+    sx:cnfTE <1val1LANGTAG.json> ;
     .
 
 <#1val1IRIREFDatatype> a sht:RepresentationTest ;
@@ -841,6 +893,7 @@
     sx:shex <1val1IRIREFDatatype.shex> ;
     sx:json <1val1IRIREFDatatype.json> ;
     sx:ttl <1val1IRIREFDatatype.ttl> ;
+    sx:cnfTE <1val1IRIREFDatatype.json> ;
     .
 
 <#1val1true> a sht:RepresentationTest ;
@@ -849,6 +902,7 @@
     sx:shex <1val1true.shex> ;
     sx:json <1val1true.json> ;
     sx:ttl <1val1true.ttl> ;
+    sx:cnfTE <1val1true.json> ;
     .
 
 <#1val1false> a sht:RepresentationTest ;
@@ -857,6 +911,7 @@
     sx:shex <1val1false.shex> ;
     sx:json <1val1false.json> ;
     sx:ttl <1val1false.ttl> ;
+    sx:cnfTE <1val1false.json> ;
     .
 
 <#1val1LNDatatype> a sht:RepresentationTest ;
@@ -865,6 +920,7 @@
     sx:shex <1val1LNDatatype.shex> ;
     sx:json <1val1LNDatatype.json> ;
     sx:ttl <1val1LNDatatype.ttl> ;
+    sx:cnfTE <1val1LNDatatype.json> ;
     .
 
 <#1val1STRING_LITERAL1> a sht:RepresentationTest ;
@@ -873,6 +929,7 @@
     sx:shex <1val1STRING_LITERAL1.shex> ;
     sx:json <1val1STRING_LITERAL1.json> ;
     sx:ttl <1val1STRING_LITERAL1.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1.json> ;
     .
 
 <#1val1STRING_LITERAL1_with_all_controls> a sht:RepresentationTest ;
@@ -881,6 +938,7 @@
     sx:shex <1val1STRING_LITERAL1_with_all_controls.shex> ;
     sx:json <1val1STRING_LITERAL1_with_all_controls.json> ;
     sx:ttl <1val1STRING_LITERAL1_with_all_controls.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1_with_all_controls.json> ;
     .
 
 <#1val1STRING_LITERAL1_with_all_punctuation> a sht:RepresentationTest ;
@@ -889,6 +947,7 @@
     sx:shex <1val1STRING_LITERAL1_with_all_punctuation.shex> ;
     sx:json <1val1STRING_LITERAL1_with_all_punctuation.json> ;
     sx:ttl <1val1STRING_LITERAL1_with_all_punctuation.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1_with_all_punctuation.json> ;
     .
 
 <#1val1STRING_LITERAL1_with_ECHAR_escapes> a sht:RepresentationTest ;
@@ -897,6 +956,7 @@
     sx:shex <1val1STRING_LITERAL1_with_ECHAR_escapes.shex> ;
     sx:json <1val1STRING_LITERAL1_with_ECHAR_escapes.json> ;
     sx:ttl <1val1STRING_LITERAL1_with_ECHAR_escapes.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1_with_ECHAR_escapes.json> ;
     .
 
 <#1val1STRING_LITERAL1_with_ascii_boundaries> a sht:RepresentationTest ;
@@ -905,6 +965,7 @@
     sx:shex <1val1STRING_LITERAL1_with_ascii_boundaries.shex> ;
     sx:json <1val1STRING_LITERAL1_with_ascii_boundaries.json> ;
     sx:ttl <1val1STRING_LITERAL1_with_ascii_boundaries.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1_with_ascii_boundaries.json> ;
     .
 
 <#1val1STRING_LITERAL1_with_UTF8_boundaries> a sht:RepresentationTest ;
@@ -913,6 +974,7 @@
     sx:shex <1val1STRING_LITERAL1_with_UTF8_boundaries.shex> ;
     sx:json <1val1STRING_LITERAL1_with_UTF8_boundaries.json> ;
     sx:ttl <1val1STRING_LITERAL1_with_UTF8_boundaries.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL1_with_UTF8_boundaries.json> ;
     .
 
 <#1val1STRING_LITERAL2> a sht:RepresentationTest ;
@@ -921,6 +983,7 @@
     sx:shex <1val1STRING_LITERAL2.shex> ;
     sx:json <1val1STRING_LITERAL2.json> ;
     sx:ttl <1val1STRING_LITERAL2.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL2.json> ;
     .
 
 <#1val1STRING_LITERAL2_with_LANGTAG> a sht:RepresentationTest ;
@@ -929,6 +992,7 @@
     sx:shex <1val1STRING_LITERAL2_with_LANGTAG.shex> ;
     sx:json <1val1STRING_LITERAL2_with_LANGTAG.json> ;
     sx:ttl <1val1STRING_LITERAL2_with_LANGTAG.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL2_with_LANGTAG.json> ;
     .
 
 <#1val1STRING_LITERAL2_with_subtag> a sht:RepresentationTest ;
@@ -937,6 +1001,7 @@
     sx:shex <1val1STRING_LITERAL2_with_subtag.shex> ;
     sx:json <1val1STRING_LITERAL2_with_subtag.json> ;
     sx:ttl <1val1STRING_LITERAL2_with_subtag.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL2_with_subtag.json> ;
     .
 
 <#1val1STRING_LITERAL_LONG1> a sht:RepresentationTest ;
@@ -945,6 +1010,7 @@
     sx:shex <1val1STRING_LITERAL_LONG1.shex> ;
     sx:json <1val1STRING_LITERAL_LONG1.json> ;
     sx:ttl <1val1STRING_LITERAL_LONG1.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL_LONG1.json> ;
     .
 
 <#1val1STRING_LITERAL_LONG2> a sht:RepresentationTest ;
@@ -953,6 +1019,7 @@
     sx:shex <1val1STRING_LITERAL_LONG2.shex> ;
     sx:json <1val1STRING_LITERAL_LONG2.json> ;
     sx:ttl <1val1STRING_LITERAL_LONG2.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL_LONG2.json> ;
     .
 
 <#1val1STRING_LITERAL_LONG2_with_LANGTAG> a sht:RepresentationTest ;
@@ -961,6 +1028,7 @@
     sx:shex <1val1STRING_LITERAL_LONG2_with_LANGTAG.shex> ;
     sx:json <1val1STRING_LITERAL_LONG2_with_LANGTAG.json> ;
     sx:ttl <1val1STRING_LITERAL_LONG2_with_LANGTAG.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL_LONG2_with_LANGTAG.json> ;
     .
 
 <#1val1STRING_LITERAL_LONG2_with_subtag> a sht:RepresentationTest ;
@@ -969,6 +1037,7 @@
     sx:shex <1val1STRING_LITERAL_LONG2_with_subtag.shex> ;
     sx:json <1val1STRING_LITERAL_LONG2_with_subtag.json> ;
     sx:ttl <1val1STRING_LITERAL_LONG2_with_subtag.ttl> ;
+    sx:cnfTE <1val1STRING_LITERAL_LONG2_with_subtag.json> ;
     .
 
 <#1datatypeLength> a sht:RepresentationTest ;
@@ -977,6 +1046,7 @@
     sx:shex <1datatypeLength.shex> ;
     sx:json <1datatypeLength.json> ;
     sx:ttl <1datatypeLength.ttl> ;
+    sx:cnfTE <1datatypeLength.json> ;
     .
 
 <#1literalFractiondigits5> a sht:RepresentationTest ;
@@ -985,6 +1055,7 @@
     sx:shex <1literalFractiondigits5.shex> ;
     sx:json <1literalFractiondigits5.json> ;
     sx:ttl <1literalFractiondigits5.ttl> ;
+    sx:cnfTE <1literalFractiondigits5.json> ;
     .
 
 <#1literalFractiondigits4> a sht:RepresentationTest ;
@@ -993,6 +1064,7 @@
     sx:shex <1literalFractiondigits4.shex> ;
     sx:json <1literalFractiondigits4.json> ;
     sx:ttl <1literalFractiondigits4.ttl> ;
+    sx:cnfTE <1literalFractiondigits4.json> ;
     .
 
 <#1literalTotaldigits5> a sht:RepresentationTest ;
@@ -1001,6 +1073,7 @@
     sx:shex <1literalTotaldigits5.shex> ;
     sx:json <1literalTotaldigits5.json> ;
     sx:ttl <1literalTotaldigits5.ttl> ;
+    sx:cnfTE <1literalTotaldigits5.json> ;
     .
 
 <#1literalMinexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1009,6 +1082,7 @@
     sx:shex <1literalMinexclusiveINTEGER.shex> ;
     sx:json <1literalMinexclusiveINTEGER.json> ;
     sx:ttl <1literalMinexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1literalMinexclusiveINTEGER.json> ;
     .
 
 <#1literalMininclusiveINTEGER> a sht:RepresentationTest ;
@@ -1017,6 +1091,7 @@
     sx:shex <1literalMininclusiveINTEGER.shex> ;
     sx:json <1literalMininclusiveINTEGER.json> ;
     sx:ttl <1literalMininclusiveINTEGER.ttl> ;
+    sx:cnfTE <1literalMininclusiveINTEGER.json> ;
     .
 
 <#1literalMaxexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1025,6 +1100,7 @@
     sx:shex <1literalMaxexclusiveINTEGER.shex> ;
     sx:json <1literalMaxexclusiveINTEGER.json> ;
     sx:ttl <1literalMaxexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1literalMaxexclusiveINTEGER.json> ;
     .
 
 <#1literalMaxinclusiveINTEGER> a sht:RepresentationTest ;
@@ -1033,6 +1109,7 @@
     sx:shex <1literalMaxinclusiveINTEGER.shex> ;
     sx:json <1literalMaxinclusiveINTEGER.json> ;
     sx:ttl <1literalMaxinclusiveINTEGER.ttl> ;
+    sx:cnfTE <1literalMaxinclusiveINTEGER.json> ;
     .
 
 <#1literalTotaldigits6> a sht:RepresentationTest ;
@@ -1041,6 +1118,7 @@
     sx:shex <1literalTotaldigits6.shex> ;
     sx:json <1literalTotaldigits6.json> ;
     sx:ttl <1literalTotaldigits6.ttl> ;
+    sx:cnfTE <1literalTotaldigits6.json> ;
     .
 
 <#1literalTotaldigits2> a sht:RepresentationTest ;
@@ -1049,6 +1127,7 @@
     sx:shex <1literalTotaldigits2.shex> ;
     sx:json <1literalTotaldigits2.json> ;
     sx:ttl <1literalTotaldigits2.ttl> ;
+    sx:cnfTE <1literalTotaldigits2.json> ;
     .
 
 <#1floatMininclusiveINTEGER> a sht:RepresentationTest ;
@@ -1057,6 +1136,7 @@
     sx:shex <1floatMininclusiveINTEGER.shex> ;
     sx:json <1floatMininclusiveINTEGER.json> ;
     sx:ttl <1floatMininclusiveINTEGER.ttl> ;
+    sx:cnfTE <1floatMininclusiveINTEGER.json> ;
     .
 
 <#1integerMininclusiveINTEGER> a sht:RepresentationTest ;
@@ -1065,6 +1145,7 @@
     sx:shex <1integerMininclusiveINTEGER.shex> ;
     sx:json <1integerMininclusiveINTEGER.json> ;
     sx:ttl <1integerMininclusiveINTEGER.ttl> ;
+    sx:cnfTE <1integerMininclusiveINTEGER.json> ;
     .
 
 <#1floatMininclusiveINTEGERLead> a sht:RepresentationTest ;
@@ -1073,6 +1154,7 @@
     sx:shex <1floatMininclusiveINTEGERLead.shex> ;
     sx:json <1floatMininclusiveINTEGERLead.json> ;
     sx:ttl <1floatMininclusiveINTEGERLead.ttl> ;
+    sx:cnfTE <1floatMininclusiveINTEGERLead.json> ;
     .
 
 <#1integerMininclusiveINTEGERLead> a sht:RepresentationTest ;
@@ -1081,6 +1163,7 @@
     sx:shex <1integerMininclusiveINTEGERLead.shex> ;
     sx:json <1integerMininclusiveINTEGERLead.json> ;
     sx:ttl <1integerMininclusiveINTEGERLead.ttl> ;
+    sx:cnfTE <1integerMininclusiveINTEGERLead.json> ;
     .
 
 <#1integerMininclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1089,6 +1172,7 @@
     sx:shex <1integerMininclusiveDECIMAL.shex> ;
     sx:json <1integerMininclusiveDECIMAL.json> ;
     sx:ttl <1integerMininclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1integerMininclusiveDECIMAL.json> ;
     .
 
 <#1integerMininclusiveDECIMALLeadTrail> a sht:RepresentationTest ;
@@ -1097,6 +1181,7 @@
     sx:shex <1integerMininclusiveDECIMALLeadTrail.shex> ;
     sx:json <1integerMininclusiveDECIMALLeadTrail.json> ;
     sx:ttl <1integerMininclusiveDECIMALLeadTrail.ttl> ;
+    sx:cnfTE <1integerMininclusiveDECIMALLeadTrail.json> ;
     .
 
 <#1integerMininclusiveDECIMALint> a sht:RepresentationTest ;
@@ -1105,6 +1190,7 @@
     sx:shex <1integerMininclusiveDECIMALint.shex> ;
     sx:json <1integerMininclusiveDECIMALint.json> ;
     sx:ttl <1integerMininclusiveDECIMALint.ttl> ;
+    sx:cnfTE <1integerMininclusiveDECIMALint.json> ;
     .
 
 <#1integerMininclusiveDECIMALintLeadTrail> a sht:RepresentationTest ;
@@ -1113,6 +1199,7 @@
     sx:shex <1integerMininclusiveDECIMALintLeadTrail.shex> ;
     sx:json <1integerMininclusiveDECIMALintLeadTrail.json> ;
     sx:ttl <1integerMininclusiveDECIMALintLeadTrail.ttl> ;
+    sx:cnfTE <1integerMininclusiveDECIMALintLeadTrail.json> ;
     .
 
 <#1integerMininclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1121,6 +1208,7 @@
     sx:shex <1integerMininclusiveDOUBLE.shex> ;
     sx:json <1integerMininclusiveDOUBLE.json> ;
     sx:ttl <1integerMininclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1integerMininclusiveDOUBLE.json> ;
     .
 
 <#1integerMininclusiveDOUBLELeadTrail> a sht:RepresentationTest ;
@@ -1129,6 +1217,7 @@
     sx:shex <1integerMininclusiveDOUBLELeadTrail.shex> ;
     sx:json <1integerMininclusiveDOUBLELeadTrail.json> ;
     sx:ttl <1integerMininclusiveDOUBLELeadTrail.ttl> ;
+    sx:cnfTE <1integerMininclusiveDOUBLELeadTrail.json> ;
     .
 
 <#1integerMininclusiveDOUBLEint> a sht:RepresentationTest ;
@@ -1137,6 +1226,7 @@
     sx:shex <1integerMininclusiveDOUBLEint.shex> ;
     sx:json <1integerMininclusiveDOUBLEint.json> ;
     sx:ttl <1integerMininclusiveDOUBLEint.ttl> ;
+    sx:cnfTE <1integerMininclusiveDOUBLEint.json> ;
     .
 
 <#1integerMininclusiveDOUBLEintLeadTrail> a sht:RepresentationTest ;
@@ -1145,6 +1235,7 @@
     sx:shex <1integerMininclusiveDOUBLEintLeadTrail.shex> ;
     sx:json <1integerMininclusiveDOUBLEintLeadTrail.json> ;
     sx:ttl <1integerMininclusiveDOUBLEintLeadTrail.ttl> ;
+    sx:cnfTE <1integerMininclusiveDOUBLEintLeadTrail.json> ;
     .
 
 <#1decimalMininclusiveINTEGER> a sht:RepresentationTest ;
@@ -1153,6 +1244,7 @@
     sx:shex <1decimalMininclusiveINTEGER.shex> ;
     sx:json <1decimalMininclusiveINTEGER.json> ;
     sx:ttl <1decimalMininclusiveINTEGER.ttl> ;
+    sx:cnfTE <1decimalMininclusiveINTEGER.json> ;
     .
 
 <#1decimalMininclusiveINTEGERLead> a sht:RepresentationTest ;
@@ -1161,6 +1253,7 @@
     sx:shex <1decimalMininclusiveINTEGERLead.shex> ;
     sx:json <1decimalMininclusiveINTEGERLead.json> ;
     sx:ttl <1decimalMininclusiveINTEGERLead.ttl> ;
+    sx:cnfTE <1decimalMininclusiveINTEGERLead.json> ;
     .
 
 <#1decimalMininclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1169,6 +1262,7 @@
     sx:shex <1decimalMininclusiveDECIMAL.shex> ;
     sx:json <1decimalMininclusiveDECIMAL.json> ;
     sx:ttl <1decimalMininclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDECIMAL.json> ;
     .
 
 <#1decimalMininclusiveDECIMALLeadTrail> a sht:RepresentationTest ;
@@ -1177,6 +1271,7 @@
     sx:shex <1decimalMininclusiveDECIMALLeadTrail.shex> ;
     sx:json <1decimalMininclusiveDECIMALLeadTrail.json> ;
     sx:ttl <1decimalMininclusiveDECIMALLeadTrail.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDECIMALLeadTrail.json> ;
     .
 
 <#1decimalMininclusiveDECIMALintLeadTrail> a sht:RepresentationTest ;
@@ -1185,6 +1280,7 @@
     sx:shex <1decimalMininclusiveDECIMALintLeadTrail.shex> ;
     sx:json <1decimalMininclusiveDECIMALintLeadTrail.json> ;
     sx:ttl <1decimalMininclusiveDECIMALintLeadTrail.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDECIMALintLeadTrail.json> ;
     .
 
 <#1decimalMininclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1193,6 +1289,7 @@
     sx:shex <1decimalMininclusiveDOUBLE.shex> ;
     sx:json <1decimalMininclusiveDOUBLE.json> ;
     sx:ttl <1decimalMininclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDOUBLE.json> ;
     .
 
 <#1decimalMininclusiveDOUBLELeadTrail> a sht:RepresentationTest ;
@@ -1201,6 +1298,7 @@
     sx:shex <1decimalMininclusiveDOUBLELeadTrail.shex> ;
     sx:json <1decimalMininclusiveDOUBLELeadTrail.json> ;
     sx:ttl <1decimalMininclusiveDOUBLELeadTrail.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDOUBLELeadTrail.json> ;
     .
 
 <#1decimalMininclusiveDOUBLEintLeadTrail> a sht:RepresentationTest ;
@@ -1209,6 +1307,7 @@
     sx:shex <1decimalMininclusiveDOUBLEintLeadTrail.shex> ;
     sx:json <1decimalMininclusiveDOUBLEintLeadTrail.json> ;
     sx:ttl <1decimalMininclusiveDOUBLEintLeadTrail.ttl> ;
+    sx:cnfTE <1decimalMininclusiveDOUBLEintLeadTrail.json> ;
     .
 
 <#1floatMininclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1217,6 +1316,7 @@
     sx:shex <1floatMininclusiveDECIMAL.shex> ;
     sx:json <1floatMininclusiveDECIMAL.json> ;
     sx:ttl <1floatMininclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1floatMininclusiveDECIMAL.json> ;
     .
 
 <#1floatMininclusiveDECIMALLeadTrail> a sht:RepresentationTest ;
@@ -1225,6 +1325,7 @@
     sx:shex <1floatMininclusiveDECIMALLeadTrail.shex> ;
     sx:json <1floatMininclusiveDECIMALLeadTrail.json> ;
     sx:ttl <1floatMininclusiveDECIMALLeadTrail.ttl> ;
+    sx:cnfTE <1floatMininclusiveDECIMALLeadTrail.json> ;
     .
 
 <#1floatMininclusiveDECIMALintLeadTrail> a sht:RepresentationTest ;
@@ -1233,6 +1334,7 @@
     sx:shex <1floatMininclusiveDECIMALintLeadTrail.shex> ;
     sx:json <1floatMininclusiveDECIMALintLeadTrail.json> ;
     sx:ttl <1floatMininclusiveDECIMALintLeadTrail.ttl> ;
+    sx:cnfTE <1floatMininclusiveDECIMALintLeadTrail.json> ;
     .
 
 <#1floatMininclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1241,6 +1343,7 @@
     sx:shex <1floatMininclusiveDOUBLE.shex> ;
     sx:json <1floatMininclusiveDOUBLE.json> ;
     sx:ttl <1floatMininclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1floatMininclusiveDOUBLE.json> ;
     .
 
 <#1floatMininclusiveDOUBLELeadTrail> a sht:RepresentationTest ;
@@ -1249,6 +1352,7 @@
     sx:shex <1floatMininclusiveDOUBLELeadTrail.shex> ;
     sx:json <1floatMininclusiveDOUBLELeadTrail.json> ;
     sx:ttl <1floatMininclusiveDOUBLELeadTrail.ttl> ;
+    sx:cnfTE <1floatMininclusiveDOUBLELeadTrail.json> ;
     .
 
 <#1floatMininclusiveDOUBLEintLeadTrail> a sht:RepresentationTest ;
@@ -1257,6 +1361,7 @@
     sx:shex <1floatMininclusiveDOUBLEintLeadTrail.shex> ;
     sx:json <1floatMininclusiveDOUBLEintLeadTrail.json> ;
     sx:ttl <1floatMininclusiveDOUBLEintLeadTrail.ttl> ;
+    sx:cnfTE <1floatMininclusiveDOUBLEintLeadTrail.json> ;
     .
 
 <#1doubleMininclusiveINTEGERLead> a sht:RepresentationTest ;
@@ -1265,6 +1370,7 @@
     sx:shex <1doubleMininclusiveINTEGERLead.shex> ;
     sx:json <1doubleMininclusiveINTEGERLead.json> ;
     sx:ttl <1doubleMininclusiveINTEGERLead.ttl> ;
+    sx:cnfTE <1doubleMininclusiveINTEGERLead.json> ;
     .
 
 <#1doubleMininclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1273,6 +1379,7 @@
     sx:shex <1doubleMininclusiveDECIMAL.shex> ;
     sx:json <1doubleMininclusiveDECIMAL.json> ;
     sx:ttl <1doubleMininclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDECIMAL.json> ;
     .
 
 <#1doubleMininclusiveDECIMALLeadTrail> a sht:RepresentationTest ;
@@ -1281,6 +1388,7 @@
     sx:shex <1doubleMininclusiveDECIMALLeadTrail.shex> ;
     sx:json <1doubleMininclusiveDECIMALLeadTrail.json> ;
     sx:ttl <1doubleMininclusiveDECIMALLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDECIMALLeadTrail.json> ;
     .
 
 <#1doubleMininclusiveDECIMALintLeadTrail> a sht:RepresentationTest ;
@@ -1289,6 +1397,7 @@
     sx:shex <1doubleMininclusiveDECIMALintLeadTrail.shex> ;
     sx:json <1doubleMininclusiveDECIMALintLeadTrail.json> ;
     sx:ttl <1doubleMininclusiveDECIMALintLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDECIMALintLeadTrail.json> ;
     .
 
 <#1doubleMininclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1297,6 +1406,7 @@
     sx:shex <1doubleMininclusiveDOUBLE.shex> ;
     sx:json <1doubleMininclusiveDOUBLE.json> ;
     sx:ttl <1doubleMininclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDOUBLE.json> ;
     .
 
 <#1doubleMininclusiveDOUBLELeadTrail> a sht:RepresentationTest ;
@@ -1305,6 +1415,7 @@
     sx:shex <1doubleMininclusiveDOUBLELeadTrail.shex> ;
     sx:json <1doubleMininclusiveDOUBLELeadTrail.json> ;
     sx:ttl <1doubleMininclusiveDOUBLELeadTrail.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDOUBLELeadTrail.json> ;
     .
 
 <#1doubleMininclusiveDOUBLEintLeadTrail> a sht:RepresentationTest ;
@@ -1313,6 +1424,7 @@
     sx:shex <1doubleMininclusiveDOUBLEintLeadTrail.shex> ;
     sx:json <1doubleMininclusiveDOUBLEintLeadTrail.json> ;
     sx:ttl <1doubleMininclusiveDOUBLEintLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMininclusiveDOUBLEintLeadTrail.json> ;
     .
 
 <#1integerMinexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1321,6 +1433,7 @@
     sx:shex <1integerMinexclusiveINTEGER.shex> ;
     sx:json <1integerMinexclusiveINTEGER.json> ;
     sx:ttl <1integerMinexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1integerMinexclusiveINTEGER.json> ;
     .
 
 <#1integerMinexclusiveDECIMALint> a sht:RepresentationTest ;
@@ -1329,6 +1442,7 @@
     sx:shex <1integerMinexclusiveDECIMALint.shex> ;
     sx:json <1integerMinexclusiveDECIMALint.json> ;
     sx:ttl <1integerMinexclusiveDECIMALint.ttl> ;
+    sx:cnfTE <1integerMinexclusiveDECIMALint.json> ;
     .
 
 <#1integerMinexclusiveDOUBLEint> a sht:RepresentationTest ;
@@ -1337,6 +1451,7 @@
     sx:shex <1integerMinexclusiveDOUBLEint.shex> ;
     sx:json <1integerMinexclusiveDOUBLEint.json> ;
     sx:ttl <1integerMinexclusiveDOUBLEint.ttl> ;
+    sx:cnfTE <1integerMinexclusiveDOUBLEint.json> ;
     .
 
 <#1decimalMinexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1345,6 +1460,7 @@
     sx:shex <1decimalMinexclusiveINTEGER.shex> ;
     sx:json <1decimalMinexclusiveINTEGER.json> ;
     sx:ttl <1decimalMinexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1decimalMinexclusiveINTEGER.json> ;
     .
 
 <#1decimalMinexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1353,6 +1469,7 @@
     sx:shex <1decimalMinexclusiveDECIMAL.shex> ;
     sx:json <1decimalMinexclusiveDECIMAL.json> ;
     sx:ttl <1decimalMinexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1decimalMinexclusiveDECIMAL.json> ;
     .
 
 <#1decimalMinexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1361,6 +1478,7 @@
     sx:shex <1decimalMinexclusiveDOUBLE.shex> ;
     sx:json <1decimalMinexclusiveDOUBLE.json> ;
     sx:ttl <1decimalMinexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1decimalMinexclusiveDOUBLE.json> ;
     .
 
 <#1floatMinexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1369,6 +1487,7 @@
     sx:shex <1floatMinexclusiveINTEGER.shex> ;
     sx:json <1floatMinexclusiveINTEGER.json> ;
     sx:ttl <1floatMinexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1floatMinexclusiveINTEGER.json> ;
     .
 
 <#1floatMinexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1377,6 +1496,7 @@
     sx:shex <1floatMinexclusiveDECIMAL.shex> ;
     sx:json <1floatMinexclusiveDECIMAL.json> ;
     sx:ttl <1floatMinexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1floatMinexclusiveDECIMAL.json> ;
     .
 
 <#1floatMinexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1385,6 +1505,7 @@
     sx:shex <1floatMinexclusiveDOUBLE.shex> ;
     sx:json <1floatMinexclusiveDOUBLE.json> ;
     sx:ttl <1floatMinexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1floatMinexclusiveDOUBLE.json> ;
     .
 
 <#1doubleMinexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1393,6 +1514,7 @@
     sx:shex <1doubleMinexclusiveINTEGER.shex> ;
     sx:json <1doubleMinexclusiveINTEGER.json> ;
     sx:ttl <1doubleMinexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1doubleMinexclusiveINTEGER.json> ;
     .
 
 <#1doubleMinexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1401,6 +1523,7 @@
     sx:shex <1doubleMinexclusiveDECIMAL.shex> ;
     sx:json <1doubleMinexclusiveDECIMAL.json> ;
     sx:ttl <1doubleMinexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1doubleMinexclusiveDECIMAL.json> ;
     .
 
 <#1doubleMinexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1409,6 +1532,7 @@
     sx:shex <1doubleMinexclusiveDOUBLE.shex> ;
     sx:json <1doubleMinexclusiveDOUBLE.json> ;
     sx:ttl <1doubleMinexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1doubleMinexclusiveDOUBLE.json> ;
     .
 
 <#1integerMaxinclusiveINTEGER> a sht:RepresentationTest ;
@@ -1417,6 +1541,7 @@
     sx:shex <1integerMaxinclusiveINTEGER.shex> ;
     sx:json <1integerMaxinclusiveINTEGER.json> ;
     sx:ttl <1integerMaxinclusiveINTEGER.ttl> ;
+    sx:cnfTE <1integerMaxinclusiveINTEGER.json> ;
     .
 
 <#1integerMaxinclusiveDECIMALint> a sht:RepresentationTest ;
@@ -1425,6 +1550,7 @@
     sx:shex <1integerMaxinclusiveDECIMALint.shex> ;
     sx:json <1integerMaxinclusiveDECIMALint.json> ;
     sx:ttl <1integerMaxinclusiveDECIMALint.ttl> ;
+    sx:cnfTE <1integerMaxinclusiveDECIMALint.json> ;
     .
 
 <#1integerMaxinclusiveDOUBLEint> a sht:RepresentationTest ;
@@ -1433,6 +1559,7 @@
     sx:shex <1integerMaxinclusiveDOUBLEint.shex> ;
     sx:json <1integerMaxinclusiveDOUBLEint.json> ;
     sx:ttl <1integerMaxinclusiveDOUBLEint.ttl> ;
+    sx:cnfTE <1integerMaxinclusiveDOUBLEint.json> ;
     .
 
 <#1decimalMaxinclusiveINTEGER> a sht:RepresentationTest ;
@@ -1441,6 +1568,7 @@
     sx:shex <1decimalMaxinclusiveINTEGER.shex> ;
     sx:json <1decimalMaxinclusiveINTEGER.json> ;
     sx:ttl <1decimalMaxinclusiveINTEGER.ttl> ;
+    sx:cnfTE <1decimalMaxinclusiveINTEGER.json> ;
     .
 
 <#1decimalMaxinclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1449,6 +1577,7 @@
     sx:shex <1decimalMaxinclusiveDECIMAL.shex> ;
     sx:json <1decimalMaxinclusiveDECIMAL.json> ;
     sx:ttl <1decimalMaxinclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1decimalMaxinclusiveDECIMAL.json> ;
     .
 
 <#1decimalMaxinclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1457,6 +1586,7 @@
     sx:shex <1decimalMaxinclusiveDOUBLE.shex> ;
     sx:json <1decimalMaxinclusiveDOUBLE.json> ;
     sx:ttl <1decimalMaxinclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1decimalMaxinclusiveDOUBLE.json> ;
     .
 
 <#1floatMaxinclusiveINTEGER> a sht:RepresentationTest ;
@@ -1465,6 +1595,7 @@
     sx:shex <1floatMaxinclusiveINTEGER.shex> ;
     sx:json <1floatMaxinclusiveINTEGER.json> ;
     sx:ttl <1floatMaxinclusiveINTEGER.ttl> ;
+    sx:cnfTE <1floatMaxinclusiveINTEGER.json> ;
     .
 
 <#1floatMaxinclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1473,6 +1604,7 @@
     sx:shex <1floatMaxinclusiveDECIMAL.shex> ;
     sx:json <1floatMaxinclusiveDECIMAL.json> ;
     sx:ttl <1floatMaxinclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1floatMaxinclusiveDECIMAL.json> ;
     .
 
 <#1floatMaxinclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1481,6 +1613,7 @@
     sx:shex <1floatMaxinclusiveDOUBLE.shex> ;
     sx:json <1floatMaxinclusiveDOUBLE.json> ;
     sx:ttl <1floatMaxinclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1floatMaxinclusiveDOUBLE.json> ;
     .
 
 <#1doubleMaxinclusiveINTEGER> a sht:RepresentationTest ;
@@ -1489,6 +1622,7 @@
     sx:shex <1doubleMaxinclusiveINTEGER.shex> ;
     sx:json <1doubleMaxinclusiveINTEGER.json> ;
     sx:ttl <1doubleMaxinclusiveINTEGER.ttl> ;
+    sx:cnfTE <1doubleMaxinclusiveINTEGER.json> ;
     .
 
 <#1doubleMaxinclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1497,6 +1631,7 @@
     sx:shex <1doubleMaxinclusiveDECIMAL.shex> ;
     sx:json <1doubleMaxinclusiveDECIMAL.json> ;
     sx:ttl <1doubleMaxinclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1doubleMaxinclusiveDECIMAL.json> ;
     .
 
 <#1doubleMaxinclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1505,6 +1640,7 @@
     sx:shex <1doubleMaxinclusiveDOUBLE.shex> ;
     sx:json <1doubleMaxinclusiveDOUBLE.json> ;
     sx:ttl <1doubleMaxinclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1doubleMaxinclusiveDOUBLE.json> ;
     .
 
 <#1integerMaxexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1513,6 +1649,7 @@
     sx:shex <1integerMaxexclusiveINTEGER.shex> ;
     sx:json <1integerMaxexclusiveINTEGER.json> ;
     sx:ttl <1integerMaxexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1integerMaxexclusiveINTEGER.json> ;
     .
 
 <#1integerMaxexclusiveDECIMALint> a sht:RepresentationTest ;
@@ -1521,6 +1658,7 @@
     sx:shex <1integerMaxexclusiveDECIMALint.shex> ;
     sx:json <1integerMaxexclusiveDECIMALint.json> ;
     sx:ttl <1integerMaxexclusiveDECIMALint.ttl> ;
+    sx:cnfTE <1integerMaxexclusiveDECIMALint.json> ;
     .
 
 <#1integerMaxexclusiveDOUBLEint> a sht:RepresentationTest ;
@@ -1529,6 +1667,7 @@
     sx:shex <1integerMaxexclusiveDOUBLEint.shex> ;
     sx:json <1integerMaxexclusiveDOUBLEint.json> ;
     sx:ttl <1integerMaxexclusiveDOUBLEint.ttl> ;
+    sx:cnfTE <1integerMaxexclusiveDOUBLEint.json> ;
     .
 
 <#1decimalMaxexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1537,6 +1676,7 @@
     sx:shex <1decimalMaxexclusiveINTEGER.shex> ;
     sx:json <1decimalMaxexclusiveINTEGER.json> ;
     sx:ttl <1decimalMaxexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1decimalMaxexclusiveINTEGER.json> ;
     .
 
 <#1decimalMaxexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1545,6 +1685,7 @@
     sx:shex <1decimalMaxexclusiveDECIMAL.shex> ;
     sx:json <1decimalMaxexclusiveDECIMAL.json> ;
     sx:ttl <1decimalMaxexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1decimalMaxexclusiveDECIMAL.json> ;
     .
 
 <#1decimalMaxexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1553,6 +1694,7 @@
     sx:shex <1decimalMaxexclusiveDOUBLE.shex> ;
     sx:json <1decimalMaxexclusiveDOUBLE.json> ;
     sx:ttl <1decimalMaxexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1decimalMaxexclusiveDOUBLE.json> ;
     .
 
 <#1decimalMaxexclusivexsd-byte> a sht:RepresentationTest ;
@@ -1561,6 +1703,7 @@
     sx:shex <1decimalMaxexclusivexsd-byte.shex> ;
     sx:json <1decimalMaxexclusivexsd-byte.json> ;
     sx:ttl <1decimalMaxexclusivexsd-byte.ttl> ;
+    sx:cnfTE <1decimalMaxexclusivexsd-byte.json> ;
     .
 
 <#1floatMaxexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1569,6 +1712,7 @@
     sx:shex <1floatMaxexclusiveINTEGER.shex> ;
     sx:json <1floatMaxexclusiveINTEGER.json> ;
     sx:ttl <1floatMaxexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1floatMaxexclusiveINTEGER.json> ;
     .
 
 <#1floatMaxexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1577,6 +1721,7 @@
     sx:shex <1floatMaxexclusiveDECIMAL.shex> ;
     sx:json <1floatMaxexclusiveDECIMAL.json> ;
     sx:ttl <1floatMaxexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1floatMaxexclusiveDECIMAL.json> ;
     .
 
 <#1floatMaxexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1585,6 +1730,7 @@
     sx:shex <1floatMaxexclusiveDOUBLE.shex> ;
     sx:json <1floatMaxexclusiveDOUBLE.json> ;
     sx:ttl <1floatMaxexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1floatMaxexclusiveDOUBLE.json> ;
     .
 
 <#1doubleMaxexclusiveINTEGER> a sht:RepresentationTest ;
@@ -1593,6 +1739,7 @@
     sx:shex <1doubleMaxexclusiveINTEGER.shex> ;
     sx:json <1doubleMaxexclusiveINTEGER.json> ;
     sx:ttl <1doubleMaxexclusiveINTEGER.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveINTEGER.json> ;
     .
 
 <#1doubleMaxexclusiveINTEGERLead> a sht:RepresentationTest ;
@@ -1601,6 +1748,7 @@
     sx:shex <1doubleMaxexclusiveINTEGERLead.shex> ;
     sx:json <1doubleMaxexclusiveINTEGERLead.json> ;
     sx:ttl <1doubleMaxexclusiveINTEGERLead.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveINTEGERLead.json> ;
     .
 
 <#1doubleMaxexclusiveDECIMAL> a sht:RepresentationTest ;
@@ -1609,6 +1757,7 @@
     sx:shex <1doubleMaxexclusiveDECIMAL.shex> ;
     sx:json <1doubleMaxexclusiveDECIMAL.json> ;
     sx:ttl <1doubleMaxexclusiveDECIMAL.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDECIMAL.json> ;
     .
 
 <#1doubleMaxexclusiveDECIMALLeadTrail> a sht:RepresentationTest ;
@@ -1617,6 +1766,7 @@
     sx:shex <1doubleMaxexclusiveDECIMALLeadTrail.shex> ;
     sx:json <1doubleMaxexclusiveDECIMALLeadTrail.json> ;
     sx:ttl <1doubleMaxexclusiveDECIMALLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDECIMALLeadTrail.json> ;
     .
 
 <#1doubleMaxexclusiveDECIMALint> a sht:RepresentationTest ;
@@ -1625,6 +1775,7 @@
     sx:shex <1doubleMaxexclusiveDECIMALint.shex> ;
     sx:json <1doubleMaxexclusiveDECIMALint.json> ;
     sx:ttl <1doubleMaxexclusiveDECIMALint.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDECIMALint.json> ;
     .
 
 <#1doubleMaxexclusiveDECIMALintLeadTrail> a sht:RepresentationTest ;
@@ -1633,6 +1784,7 @@
     sx:shex <1doubleMaxexclusiveDECIMALintLeadTrail.shex> ;
     sx:json <1doubleMaxexclusiveDECIMALintLeadTrail.json> ;
     sx:ttl <1doubleMaxexclusiveDECIMALintLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDECIMALintLeadTrail.json> ;
     .
 
 <#1doubleMaxexclusiveDOUBLE> a sht:RepresentationTest ;
@@ -1641,6 +1793,7 @@
     sx:shex <1doubleMaxexclusiveDOUBLE.shex> ;
     sx:json <1doubleMaxexclusiveDOUBLE.json> ;
     sx:ttl <1doubleMaxexclusiveDOUBLE.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDOUBLE.json> ;
     .
 
 <#1doubleMaxexclusiveDOUBLELeadTrail> a sht:RepresentationTest ;
@@ -1649,6 +1802,7 @@
     sx:shex <1doubleMaxexclusiveDOUBLELeadTrail.shex> ;
     sx:json <1doubleMaxexclusiveDOUBLELeadTrail.json> ;
     sx:ttl <1doubleMaxexclusiveDOUBLELeadTrail.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDOUBLELeadTrail.json> ;
     .
 
 <#1doubleMaxexclusiveDOUBLEint> a sht:RepresentationTest ;
@@ -1657,6 +1811,7 @@
     sx:shex <1doubleMaxexclusiveDOUBLEint.shex> ;
     sx:json <1doubleMaxexclusiveDOUBLEint.json> ;
     sx:ttl <1doubleMaxexclusiveDOUBLEint.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDOUBLEint.json> ;
     .
 
 <#1doubleMaxexclusiveDOUBLEintLeadTrail> a sht:RepresentationTest ;
@@ -1665,6 +1820,7 @@
     sx:shex <1doubleMaxexclusiveDOUBLEintLeadTrail.shex> ;
     sx:json <1doubleMaxexclusiveDOUBLEintLeadTrail.json> ;
     sx:ttl <1doubleMaxexclusiveDOUBLEintLeadTrail.ttl> ;
+    sx:cnfTE <1doubleMaxexclusiveDOUBLEintLeadTrail.json> ;
     .
 
 <#1Length> a sht:RepresentationTest ;
@@ -1673,6 +1829,7 @@
     sx:shex <1Length.shex> ;
     sx:json <1Length.json> ;
     sx:ttl <1Length.ttl> ;
+    sx:cnfTE <1Length.json> ;
     .
 
 <#1literalLength> a sht:RepresentationTest ;
@@ -1681,6 +1838,7 @@
     sx:shex <1literalLength.shex> ;
     sx:json <1literalLength.json> ;
     sx:ttl <1literalLength.ttl> ;
+    sx:cnfTE <1literalLength.json> ;
     .
 
 <#1literalLength19> a sht:RepresentationTest ;
@@ -1689,6 +1847,7 @@
     sx:shex <1literalLength19.shex> ;
     sx:json <1literalLength19.json> ;
     sx:ttl <1literalLength19.ttl> ;
+    sx:cnfTE <1literalLength19.json> ;
     .
 
 <#1iriLength> a sht:RepresentationTest ;
@@ -1697,6 +1856,7 @@
     sx:shex <1iriLength.shex> ;
     sx:json <1iriLength.json> ;
     sx:ttl <1iriLength.ttl> ;
+    sx:cnfTE <1iriLength.json> ;
     .
 
 <#1iriRefLength1> a sht:RepresentationTest ;
@@ -1705,6 +1865,7 @@
     sx:shex <1iriRefLength1.shex> ;
     sx:json <1iriRefLength1.json> ;
     sx:ttl <1iriRefLength1.ttl> ;
+    sx:cnfTE <1iriRefLength1.json> ;
     .
 
 <#1bnodeLength> a sht:RepresentationTest ;
@@ -1713,6 +1874,7 @@
     sx:shex <1bnodeLength.shex> ;
     sx:json <1bnodeLength.json> ;
     sx:ttl <1bnodeLength.ttl> ;
+    sx:cnfTE <1bnodeLength.json> ;
     .
 
 <#1nonliteralLength> a sht:RepresentationTest ;
@@ -1721,6 +1883,7 @@
     sx:shex <1nonliteralLength.shex> ;
     sx:json <1nonliteralLength.json> ;
     sx:ttl <1nonliteralLength.ttl> ;
+    sx:cnfTE <1nonliteralLength.json> ;
     .
 
 <#1literalMinlength> a sht:RepresentationTest ;
@@ -1729,6 +1892,7 @@
     sx:shex <1literalMinlength.shex> ;
     sx:json <1literalMinlength.json> ;
     sx:ttl <1literalMinlength.ttl> ;
+    sx:cnfTE <1literalMinlength.json> ;
     .
 
 <#1iriMinlength> a sht:RepresentationTest ;
@@ -1737,6 +1901,7 @@
     sx:shex <1iriMinlength.shex> ;
     sx:json <1iriMinlength.json> ;
     sx:ttl <1iriMinlength.ttl> ;
+    sx:cnfTE <1iriMinlength.json> ;
     .
 
 <#1bnodeMinlength> a sht:RepresentationTest ;
@@ -1745,6 +1910,7 @@
     sx:shex <1bnodeMinlength.shex> ;
     sx:json <1bnodeMinlength.json> ;
     sx:ttl <1bnodeMinlength.ttl> ;
+    sx:cnfTE <1bnodeMinlength.json> ;
     .
 
 <#1nonliteralMinlength> a sht:RepresentationTest ;
@@ -1753,6 +1919,7 @@
     sx:shex <1nonliteralMinlength.shex> ;
     sx:json <1nonliteralMinlength.json> ;
     sx:ttl <1nonliteralMinlength.ttl> ;
+    sx:cnfTE <1nonliteralMinlength.json> ;
     .
 
 <#1literalMaxlength> a sht:RepresentationTest ;
@@ -1761,6 +1928,7 @@
     sx:shex <1literalMaxlength.shex> ;
     sx:json <1literalMaxlength.json> ;
     sx:ttl <1literalMaxlength.ttl> ;
+    sx:cnfTE <1literalMaxlength.json> ;
     .
 
 <#1iriMaxlength> a sht:RepresentationTest ;
@@ -1769,6 +1937,7 @@
     sx:shex <1iriMaxlength.shex> ;
     sx:json <1iriMaxlength.json> ;
     sx:ttl <1iriMaxlength.ttl> ;
+    sx:cnfTE <1iriMaxlength.json> ;
     .
 
 <#1bnodeMaxlength> a sht:RepresentationTest ;
@@ -1777,6 +1946,7 @@
     sx:shex <1bnodeMaxlength.shex> ;
     sx:json <1bnodeMaxlength.json> ;
     sx:ttl <1bnodeMaxlength.ttl> ;
+    sx:cnfTE <1bnodeMaxlength.json> ;
     .
 
 <#1nonliteralMaxlength> a sht:RepresentationTest ;
@@ -1785,6 +1955,7 @@
     sx:shex <1nonliteralMaxlength.shex> ;
     sx:json <1nonliteralMaxlength.json> ;
     sx:ttl <1nonliteralMaxlength.ttl> ;
+    sx:cnfTE <1nonliteralMaxlength.json> ;
     .
 
 <#1literalPattern> a sht:RepresentationTest ;
@@ -1793,6 +1964,7 @@
     sx:shex <1literalPattern.shex> ;
     sx:json <1literalPattern.json> ;
     sx:ttl <1literalPattern.ttl> ;
+    sx:cnfTE <1literalPattern.json> ;
     .
 
 <#1literalPattern_with_all_meta> a sht:RepresentationTest ;
@@ -1801,6 +1973,7 @@
     sx:shex <1literalPattern_with_all_meta.shex> ;
     sx:json <1literalPattern_with_all_meta.json> ;
     sx:ttl <1literalPattern_with_all_meta.ttl> ;
+    sx:cnfTE <1literalPattern_with_all_meta.json> ;
     .
 
 <#1literalPattern_with_all_controls> a sht:RepresentationTest ;
@@ -1809,6 +1982,7 @@
     sx:shex <1literalPattern_with_all_controls.shex> ;
     sx:json <1literalPattern_with_all_controls.json> ;
     sx:ttl <1literalPattern_with_all_controls.ttl> ;
+    sx:cnfTE <1literalPattern_with_all_controls.json> ;
     .
 
 <#1literalPattern_with_all_punctuation> a sht:RepresentationTest ;
@@ -1817,6 +1991,7 @@
     sx:shex <1literalPattern_with_all_punctuation.shex> ;
     sx:json <1literalPattern_with_all_punctuation.json> ;
     sx:ttl <1literalPattern_with_all_punctuation.ttl> ;
+    sx:cnfTE <1literalPattern_with_all_punctuation.json> ;
     .
 
 <#1literalPattern_with_ascii_boundaries> a sht:RepresentationTest ;
@@ -1825,6 +2000,7 @@
     sx:shex <1literalPattern_with_ascii_boundaries.shex> ;
     sx:json <1literalPattern_with_ascii_boundaries.json> ;
     sx:ttl <1literalPattern_with_ascii_boundaries.ttl> ;
+    sx:cnfTE <1literalPattern_with_ascii_boundaries.json> ;
     .
 
 <#1literalPattern_with_UTF8_boundaries> a sht:RepresentationTest ;
@@ -1833,6 +2009,7 @@
     sx:shex <1literalPattern_with_UTF8_boundaries.shex> ;
     sx:json <1literalPattern_with_UTF8_boundaries.json> ;
     sx:ttl <1literalPattern_with_UTF8_boundaries.ttl> ;
+    sx:cnfTE <1literalPattern_with_UTF8_boundaries.json> ;
     .
 
 <#1literalPattern_with_REGEXP_escapes> a sht:RepresentationTest ;
@@ -1841,6 +2018,7 @@
     sx:shex <1literalPattern_with_REGEXP_escapes.shex> ;
     sx:json <1literalPattern_with_REGEXP_escapes.json> ;
     sx:ttl <1literalPattern_with_REGEXP_escapes.ttl> ;
+    sx:cnfTE <1literalPattern_with_REGEXP_escapes.json> ;
     .
 
 <#1literalPattern_with_REGEXP_escapes_bare> a sht:RepresentationTest ;
@@ -1849,6 +2027,7 @@
     sx:shex <1literalPattern_with_REGEXP_escapes_bare.shex> ;
     sx:json <1literalPattern_with_REGEXP_escapes_bare.json> ;
     sx:ttl <1literalPattern_with_REGEXP_escapes_bare.ttl> ;
+    sx:cnfTE <1literalPattern_with_REGEXP_escapes_bare.json> ;
     .
 
 <#1literalPattern_with_REGEXP_escapes_escaped> a sht:RepresentationTest ;
@@ -1857,6 +2036,7 @@
     sx:shex <1literalPattern_with_REGEXP_escapes_escaped.shex> ;
     sx:json <1literalPattern_with_REGEXP_escapes_escaped.json> ;
     sx:ttl <1literalPattern_with_REGEXP_escapes_escaped.ttl> ;
+    sx:cnfTE <1literalPattern_with_REGEXP_escapes_escaped.json> ;
     .
 
 <#1literalPatterni> a sht:RepresentationTest ;
@@ -1865,6 +2045,7 @@
     sx:shex <1literalPatterni.shex> ;
     sx:json <1literalPatterni.json> ;
     sx:ttl <1literalPatterni.ttl> ;
+    sx:cnfTE <1literalPatterni.json> ;
     .
 
 <#1literalPattern19> a sht:RepresentationTest ;
@@ -1873,6 +2054,7 @@
     sx:shex <1literalPattern19.shex> ;
     sx:json <1literalPattern19.json> ;
     sx:ttl <1literalPattern19.ttl> ;
+    sx:cnfTE <1literalPattern19.json> ;
     .
 
 <#1literalStartPattern> a sht:RepresentationTest ;
@@ -1881,6 +2063,7 @@
     sx:shex <1literalStartPattern.shex> ;
     sx:json <1literalStartPattern.json> ;
     sx:ttl <1literalStartPattern.ttl> ;
+    sx:cnfTE <1literalStartPattern.json> ;
     .
 
 <#1literalPatternEnd> a sht:RepresentationTest ;
@@ -1889,6 +2072,7 @@
     sx:shex <1literalPatternEnd.shex> ;
     sx:json <1literalPatternEnd.json> ;
     sx:ttl <1literalPatternEnd.ttl> ;
+    sx:cnfTE <1literalPatternEnd.json> ;
     .
 
 <#1literalStartPatternEnd> a sht:RepresentationTest ;
@@ -1897,6 +2081,7 @@
     sx:shex <1literalStartPatternEnd.shex> ;
     sx:json <1literalStartPatternEnd.json> ;
     sx:ttl <1literalStartPatternEnd.ttl> ;
+    sx:cnfTE <1literalStartPatternEnd.json> ;
     .
 
 <#1literalPatternDollar> a sht:RepresentationTest ;
@@ -1905,6 +2090,7 @@
     sx:shex <1literalPatternDollar.shex> ;
     sx:json <1literalPatternDollar.json> ;
     sx:ttl <1literalPatternDollar.ttl> ;
+    sx:cnfTE <1literalPatternDollar.json> ;
     .
 
 <#1literalCarrotPatternDollar> a sht:RepresentationTest ;
@@ -1913,6 +2099,7 @@
     sx:shex <1literalCarrotPatternDollar.shex> ;
     sx:json <1literalCarrotPatternDollar.json> ;
     sx:ttl <1literalCarrotPatternDollar.ttl> ;
+    sx:cnfTE <1literalCarrotPatternDollar.json> ;
     .
 
 <#1literalPatternabEnd> a sht:RepresentationTest ;
@@ -1921,6 +2108,7 @@
     sx:shex <1literalPatternabEnd.shex> ;
     sx:json <1literalPatternabEnd.json> ;
     sx:ttl <1literalPatternabEnd.ttl> ;
+    sx:cnfTE <1literalPatternabEnd.json> ;
     .
 
 <#1iriPattern> a sht:RepresentationTest ;
@@ -1929,6 +2117,7 @@
     sx:shex <1iriPattern.shex> ;
     sx:json <1iriPattern.json> ;
     sx:ttl <1iriPattern.ttl> ;
+    sx:cnfTE <1iriPattern.json> ;
     .
 
 <#1iriPatternbc> a sht:RepresentationTest ;
@@ -1937,6 +2126,7 @@
     sx:shex <1iriPatternbc.shex> ;
     sx:json <1iriPatternbc.json> ;
     sx:ttl <1iriPatternbc.ttl> ;
+    sx:cnfTE <1iriPatternbc.json> ;
     .
 
 <#1bnodePattern> a sht:RepresentationTest ;
@@ -1945,6 +2135,7 @@
     sx:shex <1bnodePattern.shex> ;
     sx:json <1bnodePattern.json> ;
     sx:ttl <1bnodePattern.ttl> ;
+    sx:cnfTE <1bnodePattern.json> ;
     .
 
 <#1nonliteralPattern> a sht:RepresentationTest ;
@@ -1953,6 +2144,7 @@
     sx:shex <1nonliteralPattern.shex> ;
     sx:json <1nonliteralPattern.json> ;
     sx:ttl <1nonliteralPattern.ttl> ;
+    sx:cnfTE <1nonliteralPattern.json> ;
     .
 
 <#1val1dotMinusiri3> a sht:RepresentationTest ;
@@ -1961,6 +2153,7 @@
     sx:shex <1val1dotMinusiri3.shex> ;
     sx:json <1val1dotMinusiri3.json> ;
     sx:ttl <1val1dotMinusiri3.ttl> ;
+    sx:cnfTE <1val1dotMinusiri3.json> ;
     .
 
 <#1val1refvsMinusiri3> a sht:RepresentationTest ;
@@ -1969,6 +2162,7 @@
     sx:shex <1val1refvsMinusiri3.shex> ;
     sx:json <1val1refvsMinusiri3.json> ;
     sx:ttl <1val1refvsMinusiri3.ttl> ;
+    sx:cnfTE <1val1refvsMinusiri3.json> ;
     .
 
 <#1val1dotMinusiriStem3> a sht:RepresentationTest ;
@@ -1977,6 +2171,7 @@
     sx:shex <1val1dotMinusiriStem3.shex> ;
     sx:json <1val1dotMinusiriStem3.json> ;
     sx:ttl <1val1dotMinusiriStem3.ttl> ;
+    sx:cnfTE <1val1dotMinusiriStem3.json> ;
     .
 
 <#1val1iri> a sht:RepresentationTest ;
@@ -1985,6 +2180,7 @@
     sx:shex <1val1iri.shex> ;
     sx:json <1val1iri.json> ;
     sx:ttl <1val1iri.ttl> ;
+    sx:cnfTE <1val1iri.json> ;
     .
 
 <#1val1iriStem> a sht:RepresentationTest ;
@@ -1993,6 +2189,7 @@
     sx:shex <1val1iriStem.shex> ;
     sx:json <1val1iriStem.json> ;
     sx:ttl <1val1iriStem.ttl> ;
+    sx:cnfTE <1val1iriStem.json> ;
     .
 
 <#1val1iriStemMinusiri3> a sht:RepresentationTest ;
@@ -2001,6 +2198,7 @@
     sx:shex <1val1iriStemMinusiri3.shex> ;
     sx:json <1val1iriStemMinusiri3.json> ;
     sx:ttl <1val1iriStemMinusiri3.ttl> ;
+    sx:cnfTE <1val1iriStemMinusiri3.json> ;
     .
 
 <#1val1iriStemMinusiriStem3> a sht:RepresentationTest ;
@@ -2009,6 +2207,7 @@
     sx:shex <1val1iriStemMinusiriStem3.shex> ;
     sx:json <1val1iriStemMinusiriStem3.json> ;
     sx:ttl <1val1iriStemMinusiriStem3.ttl> ;
+    sx:cnfTE <1val1iriStemMinusiriStem3.json> ;
     .
 
 <#1val1dotMinusliteral3> a sht:RepresentationTest ;
@@ -2017,6 +2216,7 @@
     sx:shex <1val1dotMinusliteral3.shex> ;
     sx:json <1val1dotMinusliteral3.json> ;
     sx:ttl <1val1dotMinusliteral3.ttl> ;
+    sx:cnfTE <1val1dotMinusliteral3.json> ;
     .
 
 <#1val1dotMinusliteralStem3> a sht:RepresentationTest ;
@@ -2025,6 +2225,7 @@
     sx:shex <1val1dotMinusliteralStem3.shex> ;
     sx:json <1val1dotMinusliteralStem3.json> ;
     sx:ttl <1val1dotMinusliteralStem3.ttl> ;
+    sx:cnfTE <1val1dotMinusliteralStem3.json> ;
     .
 
 <#1val1literal> a sht:RepresentationTest ;
@@ -2033,6 +2234,7 @@
     sx:shex <1val1literal.shex> ;
     sx:json <1val1literal.json> ;
     sx:ttl <1val1literal.ttl> ;
+    sx:cnfTE <1val1literal.json> ;
     .
 
 <#1val1literalStem> a sht:RepresentationTest ;
@@ -2041,6 +2243,7 @@
     sx:shex <1val1literalStem.shex> ;
     sx:json <1val1literalStem.json> ;
     sx:ttl <1val1literalStem.ttl> ;
+    sx:cnfTE <1val1literalStem.json> ;
     .
 
 <#1val1literalStemMinusliteral3> a sht:RepresentationTest ;
@@ -2049,6 +2252,7 @@
     sx:shex <1val1literalStemMinusliteral3.shex> ;
     sx:json <1val1literalStemMinusliteral3.json> ;
     sx:ttl <1val1literalStemMinusliteral3.ttl> ;
+    sx:cnfTE <1val1literalStemMinusliteral3.json> ;
     .
 
 <#1val1literalStemMinusliteralStem3> a sht:RepresentationTest ;
@@ -2057,6 +2261,7 @@
     sx:shex <1val1literalStemMinusliteralStem3.shex> ;
     sx:json <1val1literalStemMinusliteralStem3.json> ;
     sx:ttl <1val1literalStemMinusliteralStem3.ttl> ;
+    sx:cnfTE <1val1literalStemMinusliteralStem3.json> ;
     .
 
 <#1val1literaliriStem> a sht:RepresentationTest ;
@@ -2065,6 +2270,7 @@
     sx:shex <1val1literaliriStem.shex> ;
     sx:json <1val1literaliriStem.json> ;
     sx:ttl <1val1literaliriStem.ttl> ;
+    sx:cnfTE <1val1literaliriStem.json> ;
     .
 
 <#1val1literaliriStemMinusliteraliri3> a sht:RepresentationTest ;
@@ -2073,6 +2279,7 @@
     sx:shex <1val1literaliriStemMinusliteraliri3.shex> ;
     sx:json <1val1literaliriStemMinusliteraliri3.json> ;
     sx:ttl <1val1literaliriStemMinusliteraliri3.ttl> ;
+    sx:cnfTE <1val1literaliriStemMinusliteraliri3.json> ;
     .
 
 <#1val1dotMinuslanguage3> a sht:RepresentationTest ;
@@ -2081,6 +2288,7 @@
     sx:shex <1val1dotMinuslanguage3.shex> ;
     sx:json <1val1dotMinuslanguage3.json> ;
     sx:ttl <1val1dotMinuslanguage3.ttl> ;
+    sx:cnfTE <1val1dotMinuslanguage3.json> ;
     .
 
 <#1val1dotMinuslanguageStem3> a sht:RepresentationTest ;
@@ -2089,6 +2297,7 @@
     sx:shex <1val1dotMinuslanguageStem3.shex> ;
     sx:json <1val1dotMinuslanguageStem3.json> ;
     sx:ttl <1val1dotMinuslanguageStem3.ttl> ;
+    sx:cnfTE <1val1dotMinuslanguageStem3.json> ;
     .
 
 <#1val1language> a sht:RepresentationTest ;
@@ -2097,6 +2306,7 @@
     sx:shex <1val1language.shex> ;
     sx:json <1val1language.json> ;
     sx:ttl <1val1language.ttl> ;
+    sx:cnfTE <1val1language.json> ;
     .
 
 <#1val1languageStem> a sht:RepresentationTest ;
@@ -2105,6 +2315,7 @@
     sx:shex <1val1languageStem.shex> ;
     sx:json <1val1languageStem.json> ;
     sx:ttl <1val1languageStem.ttl> ;
+    sx:cnfTE <1val1languageStem.json> ;
     .
 
 <#1val1languageStemMinuslanguage3> a sht:RepresentationTest ;
@@ -2113,6 +2324,7 @@
     sx:shex <1val1languageStemMinuslanguage3.shex> ;
     sx:json <1val1languageStemMinuslanguage3.json> ;
     sx:ttl <1val1languageStemMinuslanguage3.ttl> ;
+    sx:cnfTE <1val1languageStemMinuslanguage3.json> ;
     .
 
 <#1val1languageStemMinuslanguageStem3> a sht:RepresentationTest ;
@@ -2121,6 +2333,7 @@
     sx:shex <1val1languageStemMinuslanguageStem3.shex> ;
     sx:json <1val1languageStemMinuslanguageStem3.json> ;
     sx:ttl <1val1languageStemMinuslanguageStem3.ttl> ;
+    sx:cnfTE <1val1languageStemMinuslanguageStem3.json> ;
     .
 
 <#1val1literallanguageStem> a sht:RepresentationTest ;
@@ -2129,6 +2342,7 @@
     sx:shex <1val1literallanguageStem.shex> ;
     sx:json <1val1literallanguageStem.json> ;
     sx:ttl <1val1literallanguageStem.ttl> ;
+    sx:cnfTE <1val1literallanguageStem.json> ;
     .
 
 <#1val1literallanguageStemMinusliterallanguage3> a sht:RepresentationTest ;
@@ -2137,6 +2351,7 @@
     sx:shex <1val1literallanguageStemMinusliterallanguage3.shex> ;
     sx:json <1val1literallanguageStemMinusliterallanguage3.json> ;
     sx:ttl <1val1literallanguageStemMinusliterallanguage3.ttl> ;
+    sx:cnfTE <1val1literallanguageStemMinusliterallanguage3.json> ;
     .
 
 <#1val1literalAtlanguageStem> a sht:RepresentationTest ;
@@ -2145,6 +2360,7 @@
     sx:shex <1val1literalAtlanguageStem.shex> ;
     sx:json <1val1literalAtlanguageStem.json> ;
     sx:ttl <1val1literalAtlanguageStem.ttl> ;
+    sx:cnfTE <1val1literalAtlanguageStem.json> ;
     .
 
 <#1val1literalAtlanguageStemMinusliteralAtlanguage3> a sht:RepresentationTest ;
@@ -2153,6 +2369,7 @@
     sx:shex <1val1literalAtlanguageStemMinusliteralAtlanguage3.shex> ;
     sx:json <1val1literalAtlanguageStemMinusliteralAtlanguage3.json> ;
     sx:ttl <1val1literalAtlanguageStemMinusliteralAtlanguage3.ttl> ;
+    sx:cnfTE <1val1literalAtlanguageStemMinusliteralAtlanguage3.json> ;
     .
 
 <#2dot> a sht:RepresentationTest ;
@@ -2161,6 +2378,7 @@
     sx:shex <2dot.shex> ;
     sx:json <2dot.json> ;
     sx:ttl <2dot.ttl> ;
+    sx:cnfTE <2dot.json> ;
     .
 
 <#2dotSemis> a sht:RepresentationTest ;
@@ -2170,6 +2388,7 @@
     sx:shex <2dotSemis.shex> ;
     sx:json <2dotSemis.json> ;
     sx:ttl <2dotSemis.ttl> ;
+    sx:cnfTE <2dotSemis.json> ;
     .
 
 <#open2dotclose> a sht:RepresentationTest ;
@@ -2179,6 +2398,7 @@
     sx:shex <open2dotclose.shex> ;
     sx:json <open2dotclose.json> ;
     sx:ttl <open2dotclose.ttl> ;
+    sx:cnfTE <open2dotclose.json> ;
     .
 
 <#open2dotsemisclose> a sht:RepresentationTest ;
@@ -2188,6 +2408,7 @@
     sx:shex <open2dotsemisclose.shex> ;
     sx:json <open2dotsemisclose.json> ;
     sx:ttl <open2dotsemisclose.ttl> ;
+    sx:cnfTE <open2dotsemisclose.json> ;
     .
 
 <#3groupdot> a sht:RepresentationTest ;
@@ -2196,6 +2417,7 @@
     sx:shex <3groupdot.shex> ;
     sx:json <3groupdot.json> ;
     sx:ttl <3groupdot.ttl> ;
+    sx:cnfTE <3groupdot.json> ;
     .
 
 <#open3groupdotclose> a sht:RepresentationTest ;
@@ -2205,6 +2427,7 @@
     sx:shex <open3groupdotclose.shex> ;
     sx:json <open3groupdotclose.json> ;
     sx:ttl <open3groupdotclose.ttl> ;
+    sx:cnfTE <open3groupdotclose.json> ;
     .
 
 <#1dotOne1dot> a sht:RepresentationTest ;
@@ -2213,6 +2436,7 @@
     sx:shex <1dotOne1dot.shex> ;
     sx:json <1dotOne1dot.json> ;
     sx:ttl <1dotOne1dot.ttl> ;
+    sx:cnfTE <1dotOne1dot.json> ;
     .
 
 <#1dotSemiOne1dotSemi> a sht:RepresentationTest ;
@@ -2221,6 +2445,7 @@
     sx:shex <1dotSemiOne1dotSemi.shex> ;
     sx:json <1dotSemiOne1dotSemi.json> ;
     sx:ttl <1dotSemiOne1dotSemi.ttl> ;
+    sx:cnfTE <1dotSemiOne1dotSemi.json> ;
     .
 
 <#open1dotOne1dotclose> a sht:RepresentationTest ;
@@ -2230,6 +2455,7 @@
     sx:shex <open1dotOne1dotclose.shex> ;
     sx:json <open1dotOne1dotclose.json> ;
     sx:ttl <open1dotOne1dotclose.ttl> ;
+    sx:cnfTE <open1dotOne1dotclose.json> ;
     .
 
 <#open1dotSemiOne1dotSemicloseSemi> a sht:RepresentationTest ;
@@ -2239,6 +2465,7 @@
     sx:shex <open1dotSemiOne1dotSemicloseSemi.shex> ;
     sx:json <open1dotSemiOne1dotSemicloseSemi.json> ;
     sx:ttl <open1dotSemiOne1dotSemicloseSemi.ttl> ;
+    sx:cnfTE <open1dotSemiOne1dotSemicloseSemi.json> ;
     .
 
 <#2dotOne1dot> a sht:RepresentationTest ;
@@ -2247,6 +2474,7 @@
     sx:shex <2dotOne1dot.shex> ;
     sx:json <2dotOne1dot.json> ;
     sx:ttl <2dotOne1dot.ttl> ;
+    sx:cnfTE <2dotOne1dot.json> ;
     .
 
 <#2dotSemiOne1dotSemi> a sht:RepresentationTest ;
@@ -2256,6 +2484,7 @@
     sx:shex <2dotSemiOne1dotSemi.shex> ;
     sx:json <2dotSemiOne1dotSemi.json> ;
     sx:ttl <2dotSemiOne1dotSemi.ttl> ;
+    sx:cnfTE <2dotSemiOne1dotSemi.json> ;
     .
 
 <#open2dotOne1dotclose> a sht:RepresentationTest ;
@@ -2265,6 +2494,7 @@
     sx:shex <open2dotOne1dotclose.shex> ;
     sx:json <open2dotOne1dotclose.json> ;
     sx:ttl <open2dotOne1dotclose.ttl> ;
+    sx:cnfTE <open2dotOne1dotclose.json> ;
     .
 
 <#open2dotSemisOne1dotSemiclose> a sht:RepresentationTest ;
@@ -2274,6 +2504,7 @@
     sx:shex <open2dotSemisOne1dotSemiclose.shex> ;
     sx:json <open2dotSemisOne1dotSemiclose.json> ;
     sx:ttl <open2dotSemisOne1dotSemiclose.ttl> ;
+    sx:cnfTE <open2dotSemisOne1dotSemiclose.json> ;
     .
 
 <#openopen2dotcloseOne1dotclose> a sht:RepresentationTest ;
@@ -2283,6 +2514,7 @@
     sx:shex <openopen2dotcloseOne1dotclose.shex> ;
     sx:json <openopen2dotcloseOne1dotclose.json> ;
     sx:ttl <openopen2dotcloseOne1dotclose.ttl> ;
+    sx:cnfTE <openopen2dotcloseOne1dotclose.json> ;
     .
 
 <#openopen2dotSemiscloseOne1dotSemiclose> a sht:RepresentationTest ;
@@ -2292,6 +2524,7 @@
     sx:shex <openopen2dotSemiscloseOne1dotSemiclose.shex> ;
     sx:json <openopen2dotSemiscloseOne1dotSemiclose.json> ;
     sx:ttl <openopen2dotSemiscloseOne1dotSemiclose.ttl> ;
+    sx:cnfTE <openopen2dotSemiscloseOne1dotSemiclose.json> ;
     .
 
 <#open1dotopen1dotOne1dotcloseclose> a sht:RepresentationTest ;
@@ -2300,6 +2533,7 @@
     sx:shex <open1dotopen1dotOne1dotcloseclose.shex> ;
     sx:json <open1dotopen1dotOne1dotcloseclose.json> ;
     sx:ttl <open1dotopen1dotOne1dotcloseclose.ttl> ;
+    sx:cnfTE <open1dotopen1dotOne1dotcloseclose.json> ;
     .
 
 <#open1dotopen1dotSemiOne1dotSemicloseSemicloseSemi> a sht:RepresentationTest ;
@@ -2309,6 +2543,7 @@
     sx:shex <open1dotopen1dotSemiOne1dotSemicloseSemicloseSemi.shex> ;
     sx:json <open1dotopen1dotSemiOne1dotSemicloseSemicloseSemi.json> ;
     sx:ttl <open1dotopen1dotSemiOne1dotSemicloseSemicloseSemi.ttl> ;
+    sx:cnfTE <open1dotopen1dotSemiOne1dotSemicloseSemicloseSemi.json> ;
     .
 
 <#1dotOne2dot> a sht:RepresentationTest ;
@@ -2317,6 +2552,7 @@
     sx:shex <1dotOne2dot.shex> ;
     sx:json <1dotOne2dot.json> ;
     sx:ttl <1dotOne2dot.ttl> ;
+    sx:cnfTE <1dotOne2dot.json> ;
     .
 
 <#1dotSemiOne2dotSemis> a sht:RepresentationTest ;
@@ -2326,6 +2562,7 @@
     sx:shex <1dotSemiOne2dotSemis.shex> ;
     sx:json <1dotSemiOne2dotSemis.json> ;
     sx:ttl <1dotSemiOne2dotSemis.ttl> ;
+    sx:cnfTE <1dotSemiOne2dotSemis.json> ;
     .
 
 <#open1dotSemiOne2dotsemisclose> a sht:RepresentationTest ;
@@ -2335,6 +2572,7 @@
     sx:shex <open1dotSemiOne2dotsemisclose.shex> ;
     sx:json <open1dotSemiOne2dotsemisclose.json> ;
     sx:ttl <open1dotSemiOne2dotsemisclose.ttl> ;
+    sx:cnfTE <open1dotSemiOne2dotsemisclose.json> ;
     .
 
 <#open1dotSemiOneopen2dotSemiscloseclose> a sht:RepresentationTest ;
@@ -2344,6 +2582,7 @@
     sx:shex <open1dotSemiOneopen2dotSemiscloseclose.shex> ;
     sx:json <open1dotSemiOneopen2dotSemiscloseclose.json> ;
     sx:ttl <open1dotSemiOneopen2dotSemiscloseclose.ttl> ;
+    sx:cnfTE <open1dotSemiOneopen2dotSemiscloseclose.json> ;
     .
 
 <#open1dotOne2dotclose> a sht:RepresentationTest ;
@@ -2353,6 +2592,7 @@
     sx:shex <open1dotOne2dotclose.shex> ;
     sx:json <open1dotOne2dotclose.json> ;
     sx:ttl <open1dotOne2dotclose.ttl> ;
+    sx:cnfTE <open1dotOne2dotclose.json> ;
     .
 
 <#open1dotOneopen2dotcloseclose> a sht:RepresentationTest ;
@@ -2361,6 +2601,7 @@
     sx:shex <open1dotOneopen2dotcloseclose.shex> ;
     sx:json <open1dotOneopen2dotcloseclose.json> ;
     sx:ttl <open1dotOneopen2dotcloseclose.ttl> ;
+    sx:cnfTE <open1dotOneopen2dotcloseclose.json> ;
     .
 
 <#openopen1dotOne1dotclose1dotclose> a sht:RepresentationTest ;
@@ -2369,6 +2610,7 @@
     sx:shex <openopen1dotOne1dotclose1dotclose.shex> ;
     sx:json <openopen1dotOne1dotclose1dotclose.json> ;
     sx:ttl <openopen1dotOne1dotclose1dotclose.ttl> ;
+    sx:cnfTE <openopen1dotOne1dotclose1dotclose.json> ;
     .
 
 <#openopen1dotSemiOne1dotSemiclose1dotSemicloseSemi> a sht:RepresentationTest ;
@@ -2378,6 +2620,7 @@
     sx:shex <openopen1dotSemiOne1dotSemiclose1dotSemicloseSemi.shex> ;
     sx:json <openopen1dotSemiOne1dotSemiclose1dotSemicloseSemi.json> ;
     sx:ttl <openopen1dotSemiOne1dotSemiclose1dotSemicloseSemi.ttl> ;
+    sx:cnfTE <openopen1dotSemiOne1dotSemiclose1dotSemicloseSemi.json> ;
     .
 
 <#1val1vExprRefIRIREF1> a sht:RepresentationTest ;
@@ -2386,6 +2629,7 @@
     sx:shex <1val1vExprRefIRIREF1.shex> ;
     sx:json <1val1vExprRefIRIREF1.json> ;
     sx:ttl <1val1vExprRefIRIREF1.ttl> ;
+    sx:cnfTE <1val1vExprRefIRIREF1.json> ;
     .
 
 <#1val1vExprRefbnode1> a sht:RepresentationTest ;
@@ -2394,6 +2638,7 @@
     sx:shex <1val1vExprRefbnode1.shex> ;
     sx:json <1val1vExprRefbnode1.json> ;
     sx:ttl <1val1vExprRefbnode1.ttl> ;
+    sx:cnfTE <1val1vExprRefbnode1.json> ;
     .
 
 <#1dotShapeAND1dot3X> a sht:RepresentationTest ;
@@ -2402,6 +2647,7 @@
     sx:shex <1dotShapeAND1dot3X.shex> ;
     sx:json <1dotShapeAND1dot3X.json> ;
     sx:ttl <1dotShapeAND1dot3X.ttl> ;
+    sx:cnfTE <1dotShapeAND1dot3X.json> ;
     .
 
 <#1dotRefAND3> a sht:RepresentationTest ;
@@ -2410,6 +2656,7 @@
     sx:shex <1dotRefAND3.shex> ;
     sx:json <1dotRefAND3.json> ;
     sx:ttl <1dotRefAND3.ttl> ;
+    sx:cnfTE <1dotRefAND3.json> ;
     .
 
 <#1val1vExpr1AND1AND1Ref3> a sht:RepresentationTest ;
@@ -2418,6 +2665,7 @@
     sx:shex <1val1vExpr1AND1AND1Ref3.shex> ;
     sx:json <1val1vExpr1AND1AND1Ref3.json> ;
     sx:ttl <1val1vExpr1AND1AND1Ref3.ttl> ;
+    sx:cnfTE <1val1vExpr1AND1AND1Ref3.json> ;
     .
 
 <#1val1vExprRefAND3> a sht:RepresentationTest ;
@@ -2426,6 +2674,7 @@
     sx:shex <1val1vExprRefAND3.shex> ;
     sx:json <1val1vExprRefAND3.json> ;
     sx:ttl <1val1vExprRefAND3.ttl> ;
+    sx:cnfTE <1val1vExprRefAND3.json> ;
     .
 
 <#1val1vExprAND3> a sht:RepresentationTest ;
@@ -2434,6 +2683,7 @@
     sx:shex <1val1vExprAND3.shex> ;
     sx:json <1val1vExprAND3.json> ;
     sx:ttl <1val1vExprAND3.ttl> ;
+    sx:cnfTE <1val1vExprAND3.json> ;
     .
 
 <#1bnodeRefORRefMinlength> a sht:RepresentationTest ;
@@ -2442,6 +2692,7 @@
     sx:shex <1bnodeRefORRefMinlength.shex> ;
     sx:json <1bnodeRefORRefMinlength.json> ;
     sx:ttl <1bnodeRefORRefMinlength.ttl> ;
+    sx:cnfTE <1bnodeRefORRefMinlength.json> ;
     .
 
 <#1dotRefOR3> a sht:RepresentationTest ;
@@ -2450,6 +2701,7 @@
     sx:shex <1dotRefOR3.shex> ;
     sx:json <1dotRefOR3.json> ;
     sx:ttl <1dotRefOR3.ttl> ;
+    sx:cnfTE <1dotRefOR3.json> ;
     .
 
 <#1val1vExpr1OR1OR1Ref3> a sht:RepresentationTest ;
@@ -2458,6 +2710,7 @@
     sx:shex <1val1vExpr1OR1OR1Ref3.shex> ;
     sx:json <1val1vExpr1OR1OR1Ref3.json> ;
     sx:ttl <1val1vExpr1OR1OR1Ref3.ttl> ;
+    sx:cnfTE <1val1vExpr1OR1OR1Ref3.json> ;
     .
 
 <#1val1vExprRefOR3> a sht:RepresentationTest ;
@@ -2466,6 +2719,7 @@
     sx:shex <1val1vExprRefOR3.shex> ;
     sx:json <1val1vExprRefOR3.json> ;
     sx:ttl <1val1vExprRefOR3.ttl> ;
+    sx:cnfTE <1val1vExprRefOR3.json> ;
     .
 
 <#1val1vExprOR3> a sht:RepresentationTest ;
@@ -2474,6 +2728,7 @@
     sx:shex <1val1vExprOR3.shex> ;
     sx:json <1val1vExprOR3.json> ;
     sx:ttl <1val1vExprOR3.ttl> ;
+    sx:cnfTE <1val1vExprOR3.json> ;
     .
 
 #START
@@ -2483,6 +2738,7 @@
     sx:shex <1NOTIRI.shex> ;
     sx:json <1NOTIRI.json> ;
     sx:ttl <1NOTIRI.ttl> ;
+    sx:cnfTE <1NOTIRI.json> ;
     .
 
 <#1NOTNOTIRI> a sht:RepresentationTest ;
@@ -2491,6 +2747,7 @@
     sx:shex <1NOTNOTIRI.shex> ;
     sx:json <1NOTNOTIRI.json> ;
     sx:ttl <1NOTNOTIRI.ttl> ;
+    sx:cnfTE <1NOTNOTIRI.json> ;
     .
 
 <#1NOTvs> a sht:RepresentationTest ;
@@ -2499,6 +2756,7 @@
     sx:shex <1NOTvs.shex> ;
     sx:json <1NOTvs.json> ;
     sx:ttl <1NOTvs.ttl> ;
+    sx:cnfTE <1NOTvs.json> ;
     .
 
 <#1NOTNOTvs> a sht:RepresentationTest ;
@@ -2507,6 +2765,7 @@
     sx:shex <1NOTNOTvs.shex> ;
     sx:json <1NOTNOTvs.json> ;
     sx:ttl <1NOTNOTvs.ttl> ;
+    sx:cnfTE <1NOTNOTvs.json> ;
     .
 
 <#1NOTdot> a sht:RepresentationTest ;
@@ -2515,6 +2774,7 @@
     sx:shex <1NOTdot.shex> ;
     sx:json <1NOTdot.json> ;
     sx:ttl <1NOTdot.ttl> ;
+    sx:cnfTE <1NOTdot.json> ;
     .
 
 <#1NOTNOTdot> a sht:RepresentationTest ;
@@ -2523,6 +2783,7 @@
     sx:shex <1NOTNOTdot.shex> ;
     sx:json <1NOTNOTdot.json> ;
     sx:ttl <1NOTNOTdot.ttl> ;
+    sx:cnfTE <1NOTNOTdot.json> ;
     .
 
 <#1_NOTliteral_ANDvs> a sht:RepresentationTest ;
@@ -2531,6 +2792,7 @@
     sx:shex <1_NOTliteral_ANDvs.shex> ;
     sx:json <1_NOTliteral_ANDvs.json> ;
     sx:ttl <1_NOTliteral_ANDvs.ttl> ;
+    sx:cnfTE <1_NOTliteral_ANDvs.json> ;
     .
 
 <#1NOT_literalANDvs_> a sht:RepresentationTest ;
@@ -2539,6 +2801,7 @@
     sx:shex <1NOT_literalANDvs_.shex> ;
     sx:json <1NOT_literalANDvs_.json> ;
     sx:ttl <1NOT_literalANDvs_.ttl> ;
+    sx:cnfTE <1NOT_literalANDvs_.json> ;
     .
 
 <#1NOTliteralANDvs> a sht:RepresentationTest ;
@@ -2547,6 +2810,7 @@
     sx:shex <1NOTliteralANDvs.shex> ;
     sx:json <1NOTliteralANDvs.json> ;
     sx:ttl <1NOTliteralANDvs.ttl> ;
+    sx:cnfTE <1NOTliteralANDvs.json> ;
     .
 
 <#1_NOTvs_ANDvs> a sht:RepresentationTest ;
@@ -2555,6 +2819,7 @@
     sx:shex <1_NOTvs_ANDvs.shex> ;
     sx:json <1_NOTvs_ANDvs.json> ;
     sx:ttl <1_NOTvs_ANDvs.ttl> ;
+    sx:cnfTE <1_NOTvs_ANDvs.json> ;
     .
 
 <#1NOT_vsANDvs_> a sht:RepresentationTest ;
@@ -2563,6 +2828,7 @@
     sx:shex <1NOT_vsANDvs_.shex> ;
     sx:json <1NOT_vsANDvs_.json> ;
     sx:ttl <1NOT_vsANDvs_.ttl> ;
+    sx:cnfTE <1NOT_vsANDvs_.json> ;
     .
 
 <#1NOTvsANDvs> a sht:RepresentationTest ;
@@ -2571,6 +2837,7 @@
     sx:shex <1NOTvsANDvs.shex> ;
     sx:json <1NOTvsANDvs.json> ;
     sx:ttl <1NOTvsANDvs.ttl> ;
+    sx:cnfTE <1NOTvsANDvs.json> ;
     .
 
 <#1_NOTliteral_ORvs> a sht:RepresentationTest ;
@@ -2579,6 +2846,7 @@
     sx:shex <1_NOTliteral_ORvs.shex> ;
     sx:json <1_NOTliteral_ORvs.json> ;
     sx:ttl <1_NOTliteral_ORvs.ttl> ;
+    sx:cnfTE <1_NOTliteral_ORvs.json> ;
     .
 
 <#1NOT_literalORvs_> a sht:RepresentationTest ;
@@ -2587,6 +2855,7 @@
     sx:shex <1NOT_literalORvs_.shex> ;
     sx:json <1NOT_literalORvs_.json> ;
     sx:ttl <1NOT_literalORvs_.ttl> ;
+    sx:cnfTE <1NOT_literalORvs_.json> ;
     .
 
 <#1NOTliteralORvs> a sht:RepresentationTest ;
@@ -2595,6 +2864,7 @@
     sx:shex <1NOTliteralORvs.shex> ;
     sx:json <1NOTliteralORvs.json> ;
     sx:ttl <1NOTliteralORvs.ttl> ;
+    sx:cnfTE <1NOTliteralORvs.json> ;
     .
 
 <#1_NOTvs_ORvs> a sht:RepresentationTest ;
@@ -2603,6 +2873,7 @@
     sx:shex <1_NOTvs_ORvs.shex> ;
     sx:json <1_NOTvs_ORvs.json> ;
     sx:ttl <1_NOTvs_ORvs.ttl> ;
+    sx:cnfTE <1_NOTvs_ORvs.json> ;
     .
 
 <#1NOT_vsORvs_> a sht:RepresentationTest ;
@@ -2611,6 +2882,7 @@
     sx:shex <1NOT_vsORvs_.shex> ;
     sx:json <1NOT_vsORvs_.json> ;
     sx:ttl <1NOT_vsORvs_.ttl> ;
+    sx:cnfTE <1NOT_vsORvs_.json> ;
     .
 
 <#1NOTvsORvs> a sht:RepresentationTest ;
@@ -2619,6 +2891,7 @@
     sx:shex <1NOTvsORvs.shex> ;
     sx:json <1NOTvsORvs.json> ;
     sx:ttl <1NOTvsORvs.ttl> ;
+    sx:cnfTE <1NOTvsORvs.json> ;
     .
 
 <#NOT1NOTvs> a sht:RepresentationTest ;
@@ -2627,6 +2900,7 @@
     sx:shex <NOT1NOTvs.shex> ;
     sx:json <NOT1NOTvs.json> ;
     sx:ttl <NOT1NOTvs.ttl> ;
+    sx:cnfTE <NOT1NOTvs.json> ;
     .
 
 #END
@@ -2637,6 +2911,7 @@
     sx:shex <1val1vExpr1AND1OR1Ref3.shex> ;
     sx:json <1val1vExpr1AND1OR1Ref3.json> ;
     sx:ttl <1val1vExpr1AND1OR1Ref3.ttl> ;
+    sx:cnfTE <1val1vExpr1AND1OR1Ref3.json> ;
     .
 
 <#1val1vExpr1OR1AND1Ref3> a sht:RepresentationTest ;
@@ -2645,6 +2920,7 @@
     sx:shex <1val1vExpr1OR1AND1Ref3.shex> ;
     sx:json <1val1vExpr1OR1AND1Ref3.json> ;
     sx:ttl <1val1vExpr1OR1AND1Ref3.ttl> ;
+    sx:cnfTE <1val1vExpr1OR1AND1Ref3.json> ;
     .
 
 <#open3Onedotclosecard2> a sht:RepresentationTest ;
@@ -2653,6 +2929,7 @@
     sx:shex <open3Onedotclosecard2.shex> ;
     sx:json <open3Onedotclosecard2.json> ;
     sx:ttl <open3Onedotclosecard2.ttl> ;
+    sx:cnfTE <open3Onedotclosecard2.json> ;
     .
 
 <#open3Onedotclosecard23> a sht:RepresentationTest ;
@@ -2661,6 +2938,7 @@
     sx:shex <open3Onedotclosecard23.shex> ;
     sx:json <open3Onedotclosecard23.json> ;
     sx:ttl <open3Onedotclosecard23.ttl> ;
+    sx:cnfTE <open3Onedotclosecard23.json> ;
     .
 
 <#open4Onedotclosecard23> a sht:RepresentationTest ;
@@ -2669,6 +2947,7 @@
     sx:shex <open4Onedotclosecard23.shex> ;
     sx:json <open4Onedotclosecard23.json> ;
     sx:ttl <open4Onedotclosecard23.ttl> ;
+    sx:cnfTE <open4Onedotclosecard23.json> ;
     .
 
 <#open3groupdotclosecard23> a sht:RepresentationTest ;
@@ -2677,6 +2956,7 @@
     sx:shex <open3groupdotclosecard23.shex> ;
     sx:json <open3groupdotclosecard23.json> ;
     sx:ttl <open3groupdotclosecard23.ttl> ;
+    sx:cnfTE <open3groupdotclosecard23.json> ;
     .
 
 <#1val1vShapeANDRef3> a sht:RepresentationTest ;
@@ -2685,6 +2965,7 @@
     sx:shex <1val1vShapeANDRef3.shex> ;
     sx:json <1val1vShapeANDRef3.json> ;
     sx:ttl <1val1vShapeANDRef3.ttl> ;
+    sx:cnfTE <1val1vShapeANDRef3.json> ;
     .
 
 <#1dotClosed> a sht:RepresentationTest ;
@@ -2693,6 +2974,7 @@
     sx:shex <1dotClosed.shex> ;
     sx:json <1dotClosed.json> ;
     sx:ttl <1dotClosed.ttl> ;
+    sx:cnfTE <1dotClosed.json> ;
     .
 
 <#FocusIRI2groupBnodeNested2groupIRIRef> a sht:RepresentationTest ;
@@ -2701,6 +2983,7 @@
     sx:shex <FocusIRI2groupBnodeNested2groupIRIRef.shex> ;
     sx:json <FocusIRI2groupBnodeNested2groupIRIRef.json> ;
     sx:ttl <FocusIRI2groupBnodeNested2groupIRIRef.ttl> ;
+    sx:cnfTE <FocusIRI2groupBnodeNested2groupIRIRef.json> ;
     .
 
 <#1val1IRIREFExtra1> a sht:RepresentationTest ;
@@ -2709,6 +2992,7 @@
     sx:shex <1val1IRIREFExtra1.shex> ;
     sx:json <1val1IRIREFExtra1.json> ;
     sx:ttl <1val1IRIREFExtra1.ttl> ;
+    sx:cnfTE <1val1IRIREFExtra1.json> ;
     .
 
 <#1val1IRIREFExtra1Closed> a sht:RepresentationTest ;
@@ -2717,6 +3001,7 @@
     sx:shex <1val1IRIREFExtra1Closed.shex> ;
     sx:json <1val1IRIREFExtra1Closed.json> ;
     sx:ttl <1val1IRIREFExtra1Closed.ttl> ;
+    sx:cnfTE <1val1IRIREFExtra1Closed.json> ;
     .
 
 <#1val1IRIREFClosedExtra1> a sht:RepresentationTest ;
@@ -2725,6 +3010,7 @@
     sx:shex <1val1IRIREFClosedExtra1.shex> ;
     sx:json <1val1IRIREFClosedExtra1.json> ;
     sx:ttl <1val1IRIREFClosedExtra1.ttl> ;
+    sx:cnfTE <1val1IRIREFClosedExtra1.json> ;
     .
 
 <#1val2IRIREFExtra1> a sht:RepresentationTest ;
@@ -2733,6 +3019,7 @@
     sx:shex <1val2IRIREFExtra1.shex> ;
     sx:json <1val2IRIREFExtra1.json> ;
     sx:ttl <1val2IRIREFExtra1.ttl> ;
+    sx:cnfTE <1val2IRIREFExtra1.json> ;
     .
 
 <#1val2IRIREFPlusExtra1> a sht:RepresentationTest ;
@@ -2741,6 +3028,7 @@
     sx:shex <1val2IRIREFPlusExtra1.shex> ;
     sx:json <1val2IRIREFPlusExtra1.json> ;
     sx:ttl <1val2IRIREFPlusExtra1.ttl> ;
+    sx:cnfTE <1val2IRIREFPlusExtra1.json> ;
     .
 
 <#1val1IRIREFExtra1p2> a sht:RepresentationTest ;
@@ -2749,6 +3037,7 @@
     sx:shex <1val1IRIREFExtra1p2.shex> ;
     sx:json <1val1IRIREFExtra1p2.json> ;
     sx:ttl <1val1IRIREFExtra1p2.ttl> ;
+    sx:cnfTE <1val1IRIREFExtra1p2.json> ;
     .
 
 <#1val1IRIREFExtra1One> a sht:RepresentationTest ;
@@ -2757,6 +3046,7 @@
     sx:shex <1val1IRIREFExtra1One.shex> ;
     sx:json <1val1IRIREFExtra1One.json> ;
     sx:ttl <1val1IRIREFExtra1One.ttl> ;
+    sx:cnfTE <1val1IRIREFExtra1One.json> ;
     .
 
 <#1dotExtra1> a sht:RepresentationTest ;
@@ -2765,6 +3055,7 @@
     sx:shex <1dotExtra1.shex> ;
     sx:json <1dotExtra1.json> ;
     sx:ttl <1dotExtra1.ttl> ;
+    sx:cnfTE <1dotExtra1.json> ;
     .
 
 <#3groupdotExtra3> a sht:RepresentationTest ;
@@ -2773,6 +3064,7 @@
     sx:shex <3groupdotExtra3.shex> ;
     sx:json <3groupdotExtra3.json> ;
     sx:ttl <3groupdotExtra3.ttl> ;
+    sx:cnfTE <3groupdotExtra3.json> ;
     .
 
 <#3groupdot3Extra> a sht:RepresentationTest ;
@@ -2781,6 +3073,7 @@
     sx:shex <3groupdot3Extra.shex> ;
     sx:json <3groupdot3Extra.json> ;
     sx:ttl <3groupdot3Extra.ttl> ;
+    sx:cnfTE <3groupdot3Extra.json> ;
     .
 
 <#3groupdotExtra3NLex> a sht:RepresentationTest ;
@@ -2789,6 +3082,7 @@
     sx:shex <3groupdotExtra3NLex.shex> ;
     sx:json <3groupdotExtra3NLex.json> ;
     sx:ttl <3groupdotExtra3NLex.ttl> ;
+    sx:cnfTE <3groupdotExtra3NLex.json> ;
     .
 
 <#startRefIRIREF> a sht:RepresentationTest ;
@@ -2797,6 +3091,7 @@
     sx:shex <startRefIRIREF.shex> ;
     sx:json <startRefIRIREF.json> ;
     sx:ttl <startRefIRIREF.ttl> ;
+    sx:cnfTE <startRefIRIREF.json> ;
     .
 
 <#startRefbnode> a sht:RepresentationTest ;
@@ -2805,6 +3100,7 @@
     sx:shex <startRefbnode.shex> ;
     sx:json <startRefbnode.json> ;
     sx:ttl <startRefbnode.ttl> ;
+    sx:cnfTE <startRefbnode.json> ;
     .
 
 <#startInline> a sht:RepresentationTest ;
@@ -2813,6 +3109,7 @@
     sx:shex <startInline.shex> ;
     sx:json <startInline.json> ;
     sx:ttl <startInline.ttl> ;
+    sx:cnfTE <startInline.json> ;
     .
 
 <#startEqualSpaceInline> a sht:RepresentationTest ;
@@ -2821,6 +3118,7 @@
     sx:shex <startEqualSpaceInline.shex> ;
     sx:json <startEqualSpaceInline.json> ;
     sx:ttl <startEqualSpaceInline.ttl> ;
+    sx:cnfTE <startEqualSpaceInline.json> ;
     .
 
 <#startSpaceEqualInline> a sht:RepresentationTest ;
@@ -2829,6 +3127,7 @@
     sx:shex <startSpaceEqualInline.shex> ;
     sx:json <startSpaceEqualInline.json> ;
     sx:ttl <startSpaceEqualInline.ttl> ;
+    sx:cnfTE <startSpaceEqualInline.json> ;
     .
 
 <#1IRIInline0> a sht:RepresentationTest ;
@@ -2837,6 +3136,7 @@
     sx:shex <1IRIInline0.shex> ;
     sx:json <1IRIInline0.json> ;
     sx:ttl <1IRIInline0.ttl> ;
+    sx:cnfTE <1IRIInline0.json> ;
     .
 
 <#2EachInclude1> a sht:RepresentationTest ;
@@ -2845,6 +3145,7 @@
     sx:shex <2EachInclude1.shex> ;
     sx:json <2EachInclude1.json> ;
     sx:ttl <2EachInclude1.ttl> ;
+    sx:cnfTE <2EachInclude1.json> ;
     .
 
 <#2EachInclude1-after> a sht:RepresentationTest ;
@@ -2853,6 +3154,7 @@
     sx:shex <2EachInclude1-after.shex> ;
     sx:json <2EachInclude1-after.json> ;
     sx:ttl <2EachInclude1-after.ttl> ;
+    sx:cnfTE <2EachInclude1-after.json> ;
     .
 
 <#2OneInclude1> a sht:RepresentationTest ;
@@ -2861,6 +3163,7 @@
     sx:shex <2OneInclude1.shex> ;
     sx:json <2OneInclude1.json> ;
     sx:ttl <2OneInclude1.ttl> ;
+    sx:cnfTE <2OneInclude1.json> ;
     .
 
 <#2OneInclude1-after> a sht:RepresentationTest ;
@@ -2869,6 +3172,7 @@
     sx:shex <2OneInclude1-after.shex> ;
     sx:json <2OneInclude1-after.json> ;
     sx:ttl <2OneInclude1-after.ttl> ;
+    sx:cnfTE <2OneInclude1-after.json> ;
     .
 
 <#1dotAnnotIRIREF> a sht:RepresentationTest ;
@@ -2877,6 +3181,7 @@
     sx:shex <1dotAnnotIRIREF.shex> ;
     sx:json <1dotAnnotIRIREF.json> ;
     sx:ttl <1dotAnnotIRIREF.ttl> ;
+    sx:cnfTE <1dotAnnotIRIREF.json> ;
     .
 
 <#1dotPlusAnnotIRIREF> a sht:RepresentationTest ;
@@ -2885,6 +3190,7 @@
     sx:shex <1dotPlusAnnotIRIREF.shex> ;
     sx:json <1dotPlusAnnotIRIREF.json> ;
     sx:ttl <1dotPlusAnnotIRIREF.ttl> ;
+    sx:cnfTE <1dotPlusAnnotIRIREF.json> ;
     .
 
 <#1dotAnnotAIRIREF> a sht:RepresentationTest ;
@@ -2893,6 +3199,7 @@
     sx:shex <1dotAnnotAIRIREF.shex> ;
     sx:json <1dotAnnotAIRIREF.json> ;
     sx:ttl <1dotAnnotAIRIREF.ttl> ;
+    sx:cnfTE <1dotAnnotAIRIREF.json> ;
     .
 
 <#1dotAnnotSTRING_LITERAL1> a sht:RepresentationTest ;
@@ -2901,6 +3208,7 @@
     sx:shex <1dotAnnotSTRING_LITERAL1.shex> ;
     sx:json <1dotAnnotSTRING_LITERAL1.json> ;
     sx:ttl <1dotAnnotSTRING_LITERAL1.ttl> ;
+    sx:cnfTE <1dotAnnotSTRING_LITERAL1.json> ;
     .
 
 <#1dotAnnot3> a sht:RepresentationTest ;
@@ -2909,6 +3217,7 @@
     sx:shex <1dotAnnot3.shex> ;
     sx:json <1dotAnnot3.json> ;
     sx:ttl <1dotAnnot3.ttl> ;
+    sx:cnfTE <1dotAnnot3.json> ;
     .
 
 <#1inversedotAnnot3> a sht:RepresentationTest ;
@@ -2917,6 +3226,7 @@
     sx:shex <1inversedotAnnot3.shex> ;
     sx:json <1inversedotAnnot3.json> ;
     sx:ttl <1inversedotAnnot3.ttl> ;
+    sx:cnfTE <1inversedotAnnot3.json> ;
     .
 
 <#1dotShapeAnnotIRIREF> a sht:RepresentationTest ;
@@ -2925,6 +3235,7 @@
     sx:shex <1dotShapeAnnotIRIREF.shex> ;
     sx:json <1dotShapeAnnotIRIREF.json> ;
     sx:ttl <1dotShapeAnnotIRIREF.ttl> ;
+    sx:cnfTE <1dotShapeAnnotIRIREF.json> ;
     .
 
 <#1dotShapePlusAnnotIRIREF> a sht:RepresentationTest ;
@@ -2933,6 +3244,7 @@
     sx:shex <1dotShapePlusAnnotIRIREF.shex> ;
     sx:json <1dotShapePlusAnnotIRIREF.json> ;
     sx:ttl <1dotShapePlusAnnotIRIREF.ttl> ;
+    sx:cnfTE <1dotShapePlusAnnotIRIREF.json> ;
     .
 
 <#1dotShapeAnnotAIRIREF> a sht:RepresentationTest ;
@@ -2941,6 +3253,7 @@
     sx:shex <1dotShapeAnnotAIRIREF.shex> ;
     sx:json <1dotShapeAnnotAIRIREF.json> ;
     sx:ttl <1dotShapeAnnotAIRIREF.ttl> ;
+    sx:cnfTE <1dotShapeAnnotAIRIREF.json> ;
     .
 
 <#1dotShapeAnnotSTRING_LITERAL1> a sht:RepresentationTest ;
@@ -2949,6 +3262,7 @@
     sx:shex <1dotShapeAnnotSTRING_LITERAL1.shex> ;
     sx:json <1dotShapeAnnotSTRING_LITERAL1.json> ;
     sx:ttl <1dotShapeAnnotSTRING_LITERAL1.ttl> ;
+    sx:cnfTE <1dotShapeAnnotSTRING_LITERAL1.json> ;
     .
 
 <#open3groupdotcloseAnnot3> a sht:RepresentationTest ;
@@ -2957,6 +3271,7 @@
     sx:shex <open3groupdotcloseAnnot3.shex> ;
     sx:json <open3groupdotcloseAnnot3.json> ;
     sx:ttl <open3groupdotcloseAnnot3.ttl> ;
+    sx:cnfTE <open3groupdotcloseAnnot3.json> ;
     .
 
 <#1dotCode1> a sht:RepresentationTest ;
@@ -2965,6 +3280,7 @@
     sx:shex <1dotCode1.shex> ;
     sx:json <1dotCode1.json> ;
     sx:ttl <1dotCode1.ttl> ;
+    sx:cnfTE <1dotCode1.json> ;
     .
 
 <#1dotNoCode1> a sht:RepresentationTest ;
@@ -2973,6 +3289,7 @@
     sx:shex <1dotNoCode1.shex> ;
     sx:json <1dotNoCode1.json> ;
     sx:ttl <1dotNoCode1.ttl> ;
+    sx:cnfTE <1dotNoCode1.json> ;
     .
 
 <#1inversedotCode1> a sht:RepresentationTest ;
@@ -2981,6 +3298,7 @@
     sx:shex <1inversedotCode1.shex> ;
     sx:json <1inversedotCode1.json> ;
     sx:ttl <1inversedotCode1.ttl> ;
+    sx:cnfTE <1inversedotCode1.json> ;
     .
 
 <#1dotCode3> a sht:RepresentationTest ;
@@ -2989,6 +3307,7 @@
     sx:shex <1dotCode3.shex> ;
     sx:json <1dotCode3.json> ;
     sx:ttl <1dotCode3.ttl> ;
+    sx:cnfTE <1dotCode3.json> ;
     .
 
 <#1dotNoCode3> a sht:RepresentationTest ;
@@ -2997,6 +3316,7 @@
     sx:shex <1dotNoCode3.shex> ;
     sx:json <1dotNoCode3.json> ;
     sx:ttl <1dotNoCode3.ttl> ;
+    sx:cnfTE <1dotNoCode3.json> ;
     .
 
 <#1dotCode3fail> a sht:RepresentationTest ;
@@ -3005,6 +3325,7 @@
     sx:shex <1dotCode3fail.shex> ;
     sx:json <1dotCode3fail.json> ;
     sx:ttl <1dotCode3fail.ttl> ;
+    sx:cnfTE <1dotCode3fail.json> ;
     .
 
 <#1dotCodeWithEscapes1> a sht:RepresentationTest ;
@@ -3013,6 +3334,7 @@
     sx:shex <1dotCodeWithEscapes1.shex> ;
     sx:json <1dotCodeWithEscapes1.json> ;
     sx:ttl <1dotCodeWithEscapes1.ttl> ;
+    sx:cnfTE <1dotCodeWithEscapes1.json> ;
     .
 
 <#1dotShapeCode1> a sht:RepresentationTest ;
@@ -3021,6 +3343,7 @@
     sx:shex <1dotShapeCode1.shex> ;
     sx:json <1dotShapeCode1.json> ;
     sx:ttl <1dotShapeCode1.ttl> ;
+    sx:cnfTE <1dotShapeCode1.json> ;
     .
 
 <#1dotShapeNoCode1> a sht:RepresentationTest ;
@@ -3029,6 +3352,7 @@
     sx:shex <1dotShapeNoCode1.shex> ;
     sx:json <1dotShapeNoCode1.json> ;
     sx:ttl <1dotShapeNoCode1.ttl> ;
+    sx:cnfTE <1dotShapeNoCode1.json> ;
     .
 
 <#open3groupdotcloseCode1> a sht:RepresentationTest ;
@@ -3037,6 +3361,7 @@
     sx:shex <open3groupdotcloseCode1.shex> ;
     sx:json <open3groupdotcloseCode1.json> ;
     sx:ttl <open3groupdotcloseCode1.ttl> ;
+    sx:cnfTE <open3groupdotcloseCode1.json> ;
     .
 
 <#startCode1> a sht:RepresentationTest ;
@@ -3045,6 +3370,7 @@
     sx:shex <startCode1.shex> ;
     sx:json <startCode1.json> ;
     sx:ttl <startCode1.ttl> ;
+    sx:cnfTE <startCode1.json> ;
     .
 
 <#startNoCode1> a sht:RepresentationTest ;
@@ -3053,6 +3379,7 @@
     sx:shex <startNoCode1.shex> ;
     sx:json <startNoCode1.json> ;
     sx:ttl <startNoCode1.ttl> ;
+    sx:cnfTE <startNoCode1.json> ;
     .
 
 <#startCode1fail> a sht:RepresentationTest ;
@@ -3061,6 +3388,7 @@
     sx:shex <startCode1fail.shex> ;
     sx:json <startCode1fail.json> ;
     sx:ttl <startCode1fail.ttl> ;
+    sx:cnfTE <startCode1fail.json> ;
     .
 
 <#startCode1startRef> a sht:RepresentationTest ;
@@ -3069,6 +3397,7 @@
     sx:shex <startCode1startRef.shex> ;
     sx:json <startCode1startRef.json> ;
     sx:ttl <startCode1startRef.ttl> ;
+    sx:cnfTE <startCode1startRef.json> ;
     .
 
 <#startCode1startReffail> a sht:RepresentationTest ;
@@ -3077,6 +3406,7 @@
     sx:shex <startCode1startReffail.shex> ;
     sx:json <startCode1startReffail.json> ;
     sx:ttl <startCode1startReffail.ttl> ;
+    sx:cnfTE <startCode1startReffail.json> ;
     .
 
 <#startCode3> a sht:RepresentationTest ;
@@ -3085,6 +3415,7 @@
     sx:shex <startCode3.shex> ;
     sx:json <startCode3.json> ;
     sx:ttl <startCode3.ttl> ;
+    sx:cnfTE <startCode3.json> ;
     .
 
 <#startCode3fail> a sht:RepresentationTest ;
@@ -3093,6 +3424,7 @@
     sx:shex <startCode3fail.shex> ;
     sx:json <startCode3fail.json> ;
     sx:ttl <startCode3fail.ttl> ;
+    sx:cnfTE <startCode3fail.json> ;
     .
 
 <#open3groupdotclosecard23Annot3Code2> a sht:RepresentationTest ;
@@ -3101,6 +3433,7 @@
     sx:shex <open3groupdotclosecard23Annot3Code2.shex> ;
     sx:json <open3groupdotclosecard23Annot3Code2.json> ;
     sx:ttl <open3groupdotclosecard23Annot3Code2.ttl> ;
+    sx:cnfTE <open3groupdotclosecard23Annot3Code2.json> ;
     .
 
 <#0focusIRI> a sht:RepresentationTest ;
@@ -3109,6 +3442,7 @@
     sx:shex <0focusIRI.shex> ;
     sx:json <0focusIRI.json> ;
     sx:ttl <0focusIRI.ttl> ;
+    sx:cnfTE <0focusIRI.json> ;
     .
 
 <#0focusBNODE> a sht:RepresentationTest ;
@@ -3117,6 +3451,7 @@
     sx:shex <0focusBNODE.shex> ;
     sx:json <0focusBNODE.json> ;
     sx:ttl <0focusBNODE.ttl> ;
+    sx:cnfTE <0focusBNODE.json> ;
     .
 
 <#1focusIRI_dot> a sht:RepresentationTest ;
@@ -3125,6 +3460,7 @@
     sx:shex <1focusIRI_dot.shex> ;
     sx:json <1focusIRI_dot.json> ;
     sx:ttl <1focusIRI_dot.ttl> ;
+    sx:cnfTE <1focusIRI_dot.json> ;
     .
 
 <#1focusBNODE_dot> a sht:RepresentationTest ;
@@ -3133,6 +3469,7 @@
     sx:shex <1focusBNODE_dot.shex> ;
     sx:json <1focusBNODE_dot.json> ;
     sx:ttl <1focusBNODE_dot.ttl> ;
+    sx:cnfTE <1focusBNODE_dot.json> ;
     .
 
 <#1focusnonLiteral-dot> a sht:RepresentationTest ;
@@ -3141,6 +3478,7 @@
     sx:shex <1focusnonLiteral-dot.shex> ;
     sx:json <1focusnonLiteral-dot.json> ;
     sx:ttl <1focusnonLiteral-dot.ttl> ;
+    sx:cnfTE <1focusnonLiteral-dot.json> ;
     .
 
 <#focusdatatype> a sht:RepresentationTest ;
@@ -3149,6 +3487,7 @@
     sx:shex <focusdatatype.shex> ;
     sx:json <focusdatatype.json> ;
     sx:ttl <focusdatatype.ttl> ;
+    sx:cnfTE <focusdatatype.json> ;
     .
 
 <#focusvs> a sht:RepresentationTest ;
@@ -3157,6 +3496,7 @@
     sx:shex <focusvs.shex> ;
     sx:json <focusvs.json> ;
     sx:ttl <focusvs.ttl> ;
+    sx:cnfTE <focusvs.json> ;
     .
 
 <#focusvsANDdatatype> a sht:RepresentationTest ;
@@ -3165,6 +3505,7 @@
     sx:shex <focusvsANDdatatype.shex> ;
     sx:json <focusvsANDdatatype.json> ;
     sx:ttl <focusvsANDdatatype.ttl> ;
+    sx:cnfTE <focusvsANDdatatype.json> ;
     .
 
 <#focusvsANDIRI> a sht:RepresentationTest ;
@@ -3173,6 +3514,7 @@
     sx:shex <focusvsANDIRI.shex> ;
     sx:json <focusvsANDIRI.json> ;
     sx:ttl <focusvsANDIRI.ttl> ;
+    sx:cnfTE <focusvsANDIRI.json> ;
     .
 
 <#focusvsORdatatype> a sht:RepresentationTest ;
@@ -3181,6 +3523,7 @@
     sx:shex <focusvsORdatatype.shex> ;
     sx:json <focusvsORdatatype.json> ;
     sx:ttl <focusvsORdatatype.ttl> ;
+    sx:cnfTE <focusvsORdatatype.json> ;
     .
 
 <#1focusLength-dot> a sht:RepresentationTest ;
@@ -3189,6 +3532,7 @@
     sx:shex <1focusLength-dot.shex> ;
     sx:json <1focusLength-dot.json> ;
     sx:ttl <1focusLength-dot.ttl> ;
+    sx:cnfTE <1focusLength-dot.json> ;
     .
 
 <#1focusMinLength-dot> a sht:RepresentationTest ;
@@ -3197,6 +3541,7 @@
     sx:shex <1focusMinLength-dot.shex> ;
     sx:json <1focusMinLength-dot.json> ;
     sx:ttl <1focusMinLength-dot.ttl> ;
+    sx:cnfTE <1focusMinLength-dot.json> ;
     .
 
 <#1focusMaxLength-dot> a sht:RepresentationTest ;
@@ -3205,6 +3550,7 @@
     sx:shex <1focusMaxLength-dot.shex> ;
     sx:json <1focusMaxLength-dot.json> ;
     sx:ttl <1focusMaxLength-dot.ttl> ;
+    sx:cnfTE <1focusMaxLength-dot.json> ;
     .
 
 <#1focusPattern-dot> a sht:RepresentationTest ;
@@ -3213,6 +3559,7 @@
     sx:shex <1focusPattern-dot.shex> ;
     sx:json <1focusPattern-dot.json> ;
     sx:ttl <1focusPattern-dot.ttl> ;
+    sx:cnfTE <1focusPattern-dot.json> ;
     .
 
 <#1focusPatternB-dot> a sht:RepresentationTest ;
@@ -3221,6 +3568,7 @@
     sx:shex <1focusPatternB-dot.shex> ;
     sx:json <1focusPatternB-dot.json> ;
     sx:ttl <1focusPatternB-dot.ttl> ;
+    sx:cnfTE <1focusPatternB-dot.json> ;
     .
 
 <#1focusIRILength_dot> a sht:RepresentationTest ;
@@ -3229,6 +3577,7 @@
     sx:shex <1focusIRILength_dot.shex> ;
     sx:json <1focusIRILength_dot.json> ;
     sx:ttl <1focusIRILength_dot.ttl> ;
+    sx:cnfTE <1focusIRILength_dot.json> ;
     .
 
 <#1focusBNODELength_dot> a sht:RepresentationTest ;
@@ -3237,6 +3586,7 @@
     sx:shex <1focusBNODELength_dot.shex> ;
     sx:json <1focusBNODELength_dot.json> ;
     sx:ttl <1focusBNODELength_dot.ttl> ;
+    sx:cnfTE <1focusBNODELength_dot.json> ;
     .
 
 <#1focusnonLiteralLength-dot> a sht:RepresentationTest ;
@@ -3245,6 +3595,7 @@
     sx:shex <1focusnonLiteralLength-dot.shex> ;
     sx:json <1focusnonLiteralLength-dot.json> ;
     sx:ttl <1focusnonLiteralLength-dot.ttl> ;
+    sx:cnfTE <1focusnonLiteralLength-dot.json> ;
     .
 
 <#NOT1dotOR2dot> a sht:RepresentationTest ;
@@ -3253,6 +3604,7 @@
     sx:shex <NOT1dotOR2dot.shex> ;
     sx:json <NOT1dotOR2dot.json> ;
     sx:ttl <NOT1dotOR2dot.ttl> ;
+    sx:cnfTE <NOT1dotOR2dot.json> ;
     .
 
 <#NOT1dotOR2dotX3> a sht:RepresentationTest ;
@@ -3261,6 +3613,7 @@
     sx:shex <NOT1dotOR2dotX3.shex> ;
     sx:json <NOT1dotOR2dotX3.json> ;
     sx:ttl <NOT1dotOR2dotX3.ttl> ;
+    sx:cnfTE <NOT1dotOR2dotX3.json> ;
     .
 
 <#NOT1dotOR2dotX3AND1> a sht:RepresentationTest ;
@@ -3269,6 +3622,7 @@
     sx:shex <NOT1dotOR2dotX3AND1.shex> ;
     sx:json <NOT1dotOR2dotX3AND1.json> ;
     sx:ttl <NOT1dotOR2dotX3AND1.ttl> ;
+    sx:cnfTE <NOT1dotOR2dotX3AND1.json> ;
     .
 
 <#shapeExtern> a sht:RepresentationTest ;
@@ -3277,6 +3631,7 @@
     sx:shex <shapeExtern.shex> ;
     sx:json <shapeExtern.json> ;
     sx:ttl <shapeExtern.ttl> ;
+    sx:cnfTE <shapeExtern.json> ;
     .
 
 <#shapeExternRef> a sht:RepresentationTest ;
@@ -3285,6 +3640,7 @@
     sx:shex <shapeExternRef.shex> ;
     sx:json <shapeExternRef.json> ;
     sx:ttl <shapeExternRef.ttl> ;
+    sx:cnfTE <shapeExternRef.json> ;
     .
 
 # <#0Inherit1> a sht:RepresentationTest ;
@@ -3358,6 +3714,7 @@
     sx:shex <1Include1.shex> ;
     sx:json <1Include1.json> ;
     sx:ttl <1Include1.ttl> ;
+    sx:cnfTE <1Include1.json> ;
     .
 
 <#1Include1-after> a sht:RepresentationTest ;
@@ -3366,6 +3723,7 @@
     sx:shex <1Include1-after.shex> ;
     sx:json <1Include1-after.json> ;
     sx:ttl <1Include1-after.ttl> ;
+    sx:cnfTE <1Include1-after.json> ;
     .
 
 <#startSelfRefIRIREF> a sht:RepresentationTest ;
@@ -3374,6 +3732,7 @@
     sx:shex <startSelfRefIRIREF.shex> ;
     sx:json <startSelfRefIRIREF.json> ;
     sx:ttl <startSelfRefIRIREF.ttl> ;
+    sx:cnfTE <startSelfRefIRIREF.json> ;
     .
 
 <#startSelfRefbnode> a sht:RepresentationTest ;
@@ -3382,6 +3741,7 @@
     sx:shex <startSelfRefbnode.shex> ;
     sx:json <startSelfRefbnode.json> ;
     sx:ttl <startSelfRefbnode.ttl> ;
+    sx:cnfTE <startSelfRefbnode.json> ;
     .
 
 <#datatypes> a sht:RepresentationTest ;
@@ -3390,6 +3750,7 @@
     sx:shex <datatypes.shex> ;
     sx:json <datatypes.json> ;
     sx:ttl <datatypes.ttl> ;
+    sx:cnfTE <datatypes.json> ;
     .
 
 <#_all> a sht:RepresentationTest ;
@@ -3398,6 +3759,7 @@
     sx:shex <_all.shex> ;
     sx:json <_all.json> ;
     sx:ttl <_all.ttl> ;
+    sx:cnfTE <_all.json> ;
     .
 
 <#kitchenSink> a sht:RepresentationTest ;
@@ -3406,6 +3768,7 @@
     sx:shex <kitchenSink.shex> ;
     sx:json <kitchenSink.json> ;
     sx:ttl <kitchenSink.ttl> ;
+    sx:cnfTE <kitchenSink.json> ;
     .
 
 <#node_kind_example> a sht:RepresentationTest ;
@@ -3414,6 +3777,7 @@
     sx:shex <node_kind_example.shex> ;
     sx:json <node_kind_example.json> ;
     sx:ttl <node_kind_example.ttl> ;
+    sx:cnfTE <node_kind_example.json> ;
     .
 
 <#dependent_shape> a sht:RepresentationTest ;
@@ -3422,6 +3786,7 @@
     sx:shex <dependent_shape.shex> ;
     sx:json <dependent_shape.json> ;
     sx:ttl <dependent_shape.ttl> ;
+    sx:cnfTE <dependent_shape.json> ;
     .
 
 <#recursion_example> a sht:RepresentationTest ;
@@ -3430,6 +3795,7 @@
     sx:shex <recursion_example.shex> ;
     sx:json <recursion_example.json> ;
     sx:ttl <recursion_example.ttl> ;
+    sx:cnfTE <recursion_example.json> ;
     .
 
 <#focusbnode0ORfocusPattern0> a sht:RepresentationTest ;
@@ -3438,6 +3804,7 @@
     sx:shex <focusbnode0ORfocusPattern0.shex> ;
     sx:json <focusbnode0ORfocusPattern0.json> ;
     sx:ttl <focusbnode0ORfocusPattern0.ttl> ;
+    sx:cnfTE <focusbnode0ORfocusPattern0.json> ;
     .
 
 <#1dotAND1dotAND1dot> a sht:RepresentationTest ;
@@ -3446,6 +3813,7 @@
     sx:shex <1dotAND1dotAND1dot.shex> ;
     sx:json <1dotAND1dotAND1dot.json> ;
     sx:ttl <1dotAND1dotAND1dot.ttl> ;
+    sx:cnfTE <1dotAND1dotAND1dot.json> ;
     .
 
 <#open1dotAND1dotcloseAND1dot> a sht:RepresentationTest ;
@@ -3454,6 +3822,7 @@
     sx:shex <open1dotAND1dotcloseAND1dot.shex> ;
     sx:json <open1dotAND1dotcloseAND1dot.json> ;
     sx:ttl <open1dotAND1dotcloseAND1dot.ttl> ;
+    sx:cnfTE <open1dotAND1dotcloseAND1dot.json> ;
     .
 
 <#1dotANDopen1dotAND1dotclose> a sht:RepresentationTest ;
@@ -3462,6 +3831,7 @@
     sx:shex <1dotANDopen1dotAND1dotclose.shex> ;
     sx:json <1dotANDopen1dotAND1dotclose.json> ;
     sx:ttl <1dotANDopen1dotAND1dotclose.ttl> ;
+    sx:cnfTE <1dotANDopen1dotAND1dotclose.json> ;
     .
 
 # imports {
@@ -3473,6 +3843,7 @@
     sx:shex <1dotIMPORT1dot.shex> ;
     sx:json <1dotIMPORT1dot.json> ;
     sx:ttl <1dotIMPORT1dot.ttl> ;
+    sx:cnfTE <1dotIMPORT1dot.json> ;
     .
 
 <#2RefS1-IS2> a sht:RepresentationTest ;
@@ -3482,6 +3853,7 @@
     sx:shex <2RefS1-IS2.shex> ;
     sx:json <2RefS1-IS2.json> ;
     sx:ttl <2RefS1-IS2.ttl> ;
+    sx:cnfTE <2RefS1-IS2.json> ;
     .
 
 <#2RefS1-Icirc> a sht:RepresentationTest ;
@@ -3491,6 +3863,7 @@
     sx:shex <2RefS1-Icirc.shex> ;
     sx:json <2RefS1-Icirc.json> ;
     sx:ttl <2RefS1-Icirc.ttl> ;
+    sx:cnfTE <2RefS1-Icirc.json> ;
     .
 
 # <#2RefS1> a sht:RepresentationTest ;
@@ -3509,6 +3882,7 @@
     sx:shex <2RefS2-IS1.shex> ;
     sx:json <2RefS2-IS1.json> ;
     sx:ttl <2RefS2-IS1.ttl> ;
+    sx:cnfTE <2RefS2-IS1.json> ;
     .
 
 <#2RefS2-Icirc> a sht:RepresentationTest ;
@@ -3518,6 +3892,7 @@
     sx:shex <2RefS2-Icirc.shex> ;
     sx:json <2RefS2-Icirc.json> ;
     sx:ttl <2RefS2-Icirc.ttl> ;
+    sx:cnfTE <2RefS2-Icirc.json> ;
     .
 
 <#2RefS2> a sht:RepresentationTest ;
@@ -3527,6 +3902,7 @@
     sx:shex <2RefS2.shex> ;
     sx:json <2RefS2.json> ;
     sx:ttl <2RefS2.ttl> ;
+    sx:cnfTE <2RefS2.json> ;
     .
 
 <#3circRefS1-IS2-IS3-IS3> a sht:RepresentationTest ;
@@ -3536,6 +3912,7 @@
     sx:shex <3circRefS1-IS2-IS3-IS3.shex> ;
     sx:json <3circRefS1-IS2-IS3-IS3.json> ;
     sx:ttl <3circRefS1-IS2-IS3-IS3.ttl> ;
+    sx:cnfTE <3circRefS1-IS2-IS3-IS3.json> ;
     .
 
 <#3circRefS1-IS2-IS3> a sht:RepresentationTest ;
@@ -3545,6 +3922,7 @@
     sx:shex <3circRefS1-IS2-IS3.shex> ;
     sx:json <3circRefS1-IS2-IS3.json> ;
     sx:ttl <3circRefS1-IS2-IS3.ttl> ;
+    sx:cnfTE <3circRefS1-IS2-IS3.json> ;
     .
 
 <#3circRefS1-IS23> a sht:RepresentationTest ;
@@ -3554,6 +3932,7 @@
     sx:shex <3circRefS1-IS23.shex> ;
     sx:json <3circRefS1-IS23.json> ;
     sx:ttl <3circRefS1-IS23.ttl> ;
+    sx:cnfTE <3circRefS1-IS23.json> ;
     .
 
 <#3circRefS1-Icirc> a sht:RepresentationTest ;
@@ -3563,6 +3942,7 @@
     sx:shex <3circRefS1-Icirc.shex> ;
     sx:json <3circRefS1-Icirc.json> ;
     sx:ttl <3circRefS1-Icirc.ttl> ;
+    sx:cnfTE <3circRefS1-Icirc.json> ;
     .
 
 # <#3circRefS12> a sht:RepresentationTest ;
@@ -3581,6 +3961,7 @@
     sx:shex <3circRefS123-Icirc.shex> ;
     sx:json <3circRefS123-Icirc.json> ;
     sx:ttl <3circRefS123-Icirc.ttl> ;
+    sx:cnfTE <3circRefS123-Icirc.json> ;
     .
 
 <#3circRefS123> a sht:RepresentationTest ;
@@ -3590,6 +3971,7 @@
     sx:shex <3circRefS123.shex> ;
     sx:json <3circRefS123.json> ;
     sx:ttl <3circRefS123.ttl> ;
+    sx:cnfTE <3circRefS123.json> ;
     .
 
 # <#3circRefS2-IS3> a sht:RepresentationTest ;
@@ -3608,6 +3990,7 @@
     sx:shex <3circRefS2-Icirc.shex> ;
     sx:json <3circRefS2-Icirc.json> ;
     sx:ttl <3circRefS2-Icirc.ttl> ;
+    sx:cnfTE <3circRefS2-Icirc.json> ;
     .
 
 # <#3circRefS23> a sht:RepresentationTest ;
@@ -3626,6 +4009,7 @@
     sx:shex <3circRefS3-IS12.shex> ;
     sx:json <3circRefS3-IS12.json> ;
     sx:ttl <3circRefS3-IS12.ttl> ;
+    sx:cnfTE <3circRefS3-IS12.json> ;
     .
 
 <#3circRefS3-Icirc> a sht:RepresentationTest ;
@@ -3635,6 +4019,7 @@
     sx:shex <3circRefS3-Icirc.shex> ;
     sx:json <3circRefS3-Icirc.json> ;
     sx:ttl <3circRefS3-Icirc.ttl> ;
+    sx:cnfTE <3circRefS3-Icirc.json> ;
     .
 
 # <#3circRefS3> a sht:RepresentationTest ;
@@ -3653,6 +4038,7 @@
     sx:shex <1valExprRef-IV1.shex> ;
     sx:json <1valExprRef-IV1.json> ;
     sx:ttl <1valExprRef-IV1.ttl> ;
+    sx:cnfTE <1valExprRef-IV1.json> ;
     .
 
 <#1valExprRef-vc1> a sht:RepresentationTest ;
@@ -3662,6 +4048,7 @@
     sx:shex <1valExprRef-vc1.shex> ;
     sx:json <1valExprRef-vc1.json> ;
     sx:ttl <1valExprRef-vc1.ttl> ;
+    sx:cnfTE <1valExprRef-vc1.json> ;
     .
 
 <#1valExprRefbnode-IV1> a sht:RepresentationTest ;
@@ -3671,6 +4058,7 @@
     sx:shex <1valExprRefbnode-IV1.shex> ;
     sx:json <1valExprRefbnode-IV1.json> ;
     sx:ttl <1valExprRefbnode-IV1.ttl> ;
+    sx:cnfTE <1valExprRefbnode-IV1.json> ;
     .
 
 <#1valExprRefbnode-vc1> a sht:RepresentationTest ;
@@ -3680,6 +4068,7 @@
     sx:shex <1valExprRefbnode-vc1.shex> ;
     sx:json <1valExprRefbnode-vc1.json> ;
     sx:ttl <1valExprRefbnode-vc1.ttl> ;
+    sx:cnfTE <1valExprRefbnode-vc1.json> ;
     .
 
 <#2EachInclude1-IS2> a sht:RepresentationTest ;
@@ -3689,6 +4078,7 @@
     sx:shex <2EachInclude1-IS2.shex> ;
     sx:json <2EachInclude1-IS2.json> ;
     sx:ttl <2EachInclude1-IS2.ttl> ;
+    sx:cnfTE <2EachInclude1-IS2.json> ;
     .
 
 <#2EachInclude1-S2> a sht:RepresentationTest ;
@@ -3698,6 +4088,7 @@
     sx:shex <2EachInclude1-S2.shex> ;
     sx:json <2EachInclude1-S2.json> ;
     sx:ttl <2EachInclude1-S2.ttl> ;
+    sx:cnfTE <2EachInclude1-S2.json> ;
     .
 
 # } imports
@@ -3713,6 +4104,7 @@
 #     sx:shex <\(.*?\)\.shex> ;
 #     sx:json <\4\.json> ;
 #     sx:ttl <\4\.ttl> ;
+#     sx:cnfTE <\(.*?\)\.json> ;
 #     \.
 
 # emit:
@@ -3722,5 +4114,6 @@
 #     sx:shex <\4.shex> ;
 #     sx:json <\4.json> ;
 #     sx:ttl <\4.ttl> ;
+#     sx:cnfTE <\5.json> ;
 #     .
 

@@ -169,6 +169,7 @@ function genText () {
           [s, "sx", "shex", function (v) { return exists(v[0].substr(dirPath.length)); }],
           [s, "sx", "json", function (v) { return exists(v[0].substr(dirPath.length)); }],
           [s, "sx", "ttl", function (v) { return exists(v[0].substr(dirPath.length)); }],
+          [s, "sx", "cnfTE", function (v) { return exists(v[0].substr(dirPath.length)); }],
         ].reduce(function (ret, row) {
           var found = store.findByIRI(row[0], P[row[1]]+row[2], null).map(expandCollection);
           var target = ret;
